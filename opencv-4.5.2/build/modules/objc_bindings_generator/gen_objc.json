@@ -1,0 +1,18 @@
+{
+  "rootdir": "/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2",
+  
+  "modules": [
+    { "name": "core", "location": "modules/core" },
+    { "name": "imgproc", "location": "modules/imgproc" },
+    { "name": "ml", "location": "modules/ml" },
+    { "name": "photo", "location": "modules/photo" },
+    { "name": "dnn", "location": "modules/dnn" },
+    { "name": "features2d", "location": "modules/features2d" },
+    { "name": "imgcodecs", "location": "modules/imgcodecs" },
+    { "name": "videoio", "location": "modules/videoio" },
+    { "name": "calib3d", "location": "modules/calib3d" },
+    { "name": "objdetect", "location": "modules/objdetect" },
+    { "name": "video", "location": "modules/video" },
+    { "name": "face", "location": "../opencv_contrib-4.5.2/modules/face" }
+  ]
+}

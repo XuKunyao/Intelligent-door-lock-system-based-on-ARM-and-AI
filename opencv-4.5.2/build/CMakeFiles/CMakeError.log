@@ -1,0 +1,930 @@
+Build output check failed:
+    Regex: 'argument .* is not valid'
+    Output line: 'cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type  -Werror=non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b4c27/fast && /usr/bin/make -f CMakeFiles/cmTC_b4c27.dir/build.make CMakeFiles/cmTC_b4c27.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4c27.dir/src.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type  -Werror=non-virtual-dtor -o CMakeFiles/cmTC_b4c27.dir/src.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_b4c27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4c27.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -O3 -DNDEBUG    CMakeFiles/cmTC_b4c27.dir/src.c.obj  -o cmTC_b4c27 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f2e7b/fast && /usr/bin/make -f CMakeFiles/cmTC_f2e7b.dir/build.make CMakeFiles/cmTC_f2e7b.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2e7b.dir/src.cxx.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_f2e7b.dir/src.cxx.obj -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_f2e7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2e7b.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++    -O3 -DNDEBUG    CMakeFiles/cmTC_f2e7b.dir/src.cxx.obj  -o cmTC_f2e7b 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46c5d/fast && /usr/bin/make -f CMakeFiles/cmTC_46c5d.dir/build.make CMakeFiles/cmTC_46c5d.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46c5d.dir/src.cxx.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_46c5d.dir/src.cxx.obj -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_46c5d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46c5d.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++    -O3 -DNDEBUG    CMakeFiles/cmTC_46c5d.dir/src.cxx.obj  -o cmTC_46c5d 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2fc2b/fast && /usr/bin/make -f CMakeFiles/cmTC_2fc2b.dir/build.make CMakeFiles/cmTC_2fc2b.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fc2b.dir/src.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_2fc2b.dir/src.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_2fc2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fc2b.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -O3 -DNDEBUG    CMakeFiles/cmTC_2fc2b.dir/src.c.obj  -o cmTC_2fc2b 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ce32/fast && /usr/bin/make -f CMakeFiles/cmTC_7ce32.dir/build.make CMakeFiles/cmTC_7ce32.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ce32.dir/src.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_7ce32.dir/src.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_7ce32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ce32.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -O3 -DNDEBUG    CMakeFiles/cmTC_7ce32.dir/src.c.obj  -o cmTC_7ce32 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9abd2/fast && /usr/bin/make -f CMakeFiles/cmTC_9abd2.dir/build.make CMakeFiles/cmTC_9abd2.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9abd2.dir/src.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_9abd2.dir/src.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_9abd2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9abd2.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -O3 -DNDEBUG    CMakeFiles/cmTC_9abd2.dir/src.c.obj  -o cmTC_9abd2 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c74fe/fast && /usr/bin/make -f CMakeFiles/cmTC_c74fe.dir/build.make CMakeFiles/cmTC_c74fe.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c74fe.dir/src.cxx.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_c74fe.dir/src.cxx.obj -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_c74fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c74fe.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++    -O3 -DNDEBUG    CMakeFiles/cmTC_c74fe.dir/src.cxx.obj  -o cmTC_c74fe 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88556/fast && /usr/bin/make -f CMakeFiles/cmTC_88556.dir/build.make CMakeFiles/cmTC_88556.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88556.dir/src.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_88556.dir/src.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_88556
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88556.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -O3 -DNDEBUG    CMakeFiles/cmTC_88556.dir/src.c.obj  -o cmTC_88556 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1a8ad/fast && /usr/bin/make -f CMakeFiles/cmTC_1a8ad.dir/build.make CMakeFiles/cmTC_1a8ad.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a8ad.dir/src.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_1a8ad.dir/src.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking C executable cmTC_1a8ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a8ad.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -O3 -DNDEBUG    CMakeFiles/cmTC_1a8ad.dir/src.c.obj  -o cmTC_1a8ad 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a09e0/fast && /usr/bin/make -f CMakeFiles/cmTC_a09e0.dir/build.make CMakeFiles/cmTC_a09e0.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a09e0.dir/OFF64_T.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a09e0.dir/OFF64_T.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: error: ‘off64_t’ undeclared here (not in a function); did you mean ‘off_t’?
+ #define SIZE (sizeof(off64_t))
+                      ^
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_a09e0.dir/build.make:66: CMakeFiles/cmTC_a09e0.dir/OFF64_T.c.obj] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a09e0/fast] Error 2
+
+
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_79d92/fast && /usr/bin/make -f CMakeFiles/cmTC_79d92.dir/build.make CMakeFiles/cmTC_79d92.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79d92.dir/src.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_79d92.dir/src.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking C executable cmTC_79d92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79d92.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_79d92.dir/src.c.obj  -o cmTC_79d92 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_590f7/fast && /usr/bin/make -f CMakeFiles/cmTC_590f7.dir/build.make CMakeFiles/cmTC_590f7.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_590f7.dir/CheckIncludeFile.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_590f7.dir/CheckIncludeFile.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
+ #include <io.h>
+          ^~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_590f7.dir/build.make:66: CMakeFiles/cmTC_590f7.dir/CheckIncludeFile.c.obj] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_590f7/fast] Error 2
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81750/fast && /usr/bin/make -f CMakeFiles/cmTC_81750.dir/build.make CMakeFiles/cmTC_81750.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81750.dir/int8.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_81750.dir/int8.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int8.c
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int8.c:23:22: error: ‘INT8’ undeclared here (not in a function); did you mean ‘INT8_C’?
+ #define SIZE (sizeof(INT8))
+                      ^
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int8.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_81750.dir/build.make:66: CMakeFiles/cmTC_81750.dir/int8.c.obj] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_81750/fast] Error 2
+
+
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_41757/fast && /usr/bin/make -f CMakeFiles/cmTC_41757.dir/build.make CMakeFiles/cmTC_41757.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41757.dir/int16.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_41757.dir/int16.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int16.c
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int16.c:23:22: error: ‘INT16’ undeclared here (not in a function); did you mean ‘INT16_C’?
+ #define SIZE (sizeof(INT16))
+                      ^
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int16.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_41757.dir/build.make:66: CMakeFiles/cmTC_41757.dir/int16.c.obj] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_41757/fast] Error 2
+
+
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09592/fast && /usr/bin/make -f CMakeFiles/cmTC_09592.dir/build.make CMakeFiles/cmTC_09592.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09592.dir/int32.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_09592.dir/int32.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int32.c
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int32.c:23:22: error: ‘INT32’ undeclared here (not in a function); did you mean ‘INT32_C’?
+ #define SIZE (sizeof(INT32))
+                      ^
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int32.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+make[1]: *** [CMakeFiles/cmTC_09592.dir/build.make:66: CMakeFiles/cmTC_09592.dir/int32.c.obj] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_09592/fast] Error 2
+
+
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d438a/fast && /usr/bin/make -f CMakeFiles/cmTC_d438a.dir/build.make CMakeFiles/cmTC_d438a.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d438a.dir/CheckFunctionExists.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_d438a.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘floor’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_d438a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d438a.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_d438a.dir/CheckFunctionExists.c.obj  -o cmTC_d438a 
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/../../../../arm-buildroot-linux-gnueabihf/bin/ld: CMakeFiles/cmTC_d438a.dir/CheckFunctionExists.c.obj: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d438a.dir/build.make:87: cmTC_d438a] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d438a/fast] Error 2
+
+
+
+Determining if the function pow exists failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_18b2e/fast && /usr/bin/make -f CMakeFiles/cmTC_18b2e.dir/build.make CMakeFiles/cmTC_18b2e.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18b2e.dir/CheckFunctionExists.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_18b2e.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_18b2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18b2e.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_18b2e.dir/CheckFunctionExists.c.obj  -o cmTC_18b2e 
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/../../../../arm-buildroot-linux-gnueabihf/bin/ld: CMakeFiles/cmTC_18b2e.dir/CheckFunctionExists.c.obj: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_18b2e.dir/build.make:87: cmTC_18b2e] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_18b2e/fast] Error 2
+
+
+
+Determining if the function sqrt exists failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_238c4/fast && /usr/bin/make -f CMakeFiles/cmTC_238c4.dir/build.make CMakeFiles/cmTC_238c4.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_238c4.dir/CheckFunctionExists.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_238c4.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sqrt’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_238c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_238c4.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_238c4.dir/CheckFunctionExists.c.obj  -o cmTC_238c4 
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/../../../../arm-buildroot-linux-gnueabihf/bin/ld: CMakeFiles/cmTC_238c4.dir/CheckFunctionExists.c.obj: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_238c4.dir/build.make:87: cmTC_238c4] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_238c4/fast] Error 2
+
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cdb19/fast && /usr/bin/make -f CMakeFiles/cmTC_cdb19.dir/build.make CMakeFiles/cmTC_cdb19.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cdb19.dir/CheckFunctionExists.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_cdb19.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cdb19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdb19.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_cdb19.dir/CheckFunctionExists.c.obj  -o cmTC_cdb19 
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/../../../../arm-buildroot-linux-gnueabihf/bin/ld: CMakeFiles/cmTC_cdb19.dir/CheckFunctionExists.c.obj: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `setmode'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_cdb19.dir/build.make:87: cmTC_cdb19] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_cdb19/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d11e7/fast && /usr/bin/make -f CMakeFiles/cmTC_d11e7.dir/build.make CMakeFiles/cmTC_d11e7.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d11e7.dir/src.cxx.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_d11e7.dir/src.cxx.obj -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+Linking CXX executable cmTC_d11e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d11e7.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_d11e7.dir/src.cxx.obj  -o cmTC_d11e7 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98989/fast && /usr/bin/make -f CMakeFiles/cmTC_98989.dir/build.make CMakeFiles/cmTC_98989.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98989.dir/src.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_98989.dir/src.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’
+Linking C executable cmTC_98989
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98989.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_98989.dir/src.c.obj  -o cmTC_98989 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3a990/fast && /usr/bin/make -f CMakeFiles/cmTC_3a990.dir/build.make CMakeFiles/cmTC_3a990.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a990.dir/CheckSymbolExists.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_3a990.dir/CheckSymbolExists.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function); did you mean ‘__builtin_malloc’?
+   return ((int*)(&_aligned_malloc))[argc];
+                   ^~~~~~~~~~~~~~~
+                   __builtin_malloc
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^~~~
+make[1]: *** [CMakeFiles/cmTC_3a990.dir/build.make:66: CMakeFiles/cmTC_3a990.dir/CheckSymbolExists.c.obj] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_3a990/fast] Error 2
+
+
+File /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-cast-function-type’'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-cast-function-type'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b3e7a/fast && /usr/bin/make -f CMakeFiles/cmTC_b3e7a.dir/build.make CMakeFiles/cmTC_b3e7a.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3e7a.dir/src.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-undef -Wno-strict-prototypes  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-cast-function-type -o CMakeFiles/cmTC_b3e7a.dir/src.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1: warning: unrecognized command line option ‘-Wno-cast-function-type’
+Linking C executable cmTC_b3e7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3e7a.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-undef -Wno-strict-prototypes  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_b3e7a.dir/src.c.obj  -o cmTC_b3e7a 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6274a/fast && /usr/bin/make -f CMakeFiles/cmTC_6274a.dir/build.make CMakeFiles/cmTC_6274a.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6274a.dir/src.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-undef -Wno-strict-prototypes -Wno-shadow -Wno-unused-function -DCMAKE_HAVE_LIBC_PTHREAD -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_6274a.dir/src.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.c:3:7: warning: no previous prototype for ‘test_func’ [-Wmissing-prototypes]
+ void* test_func(void* data)
+       ^~~~~~~~~
+Linking C executable cmTC_6274a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6274a.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-undef -Wno-strict-prototypes -Wno-shadow -Wno-unused-function -DCMAKE_HAVE_LIBC_PTHREAD -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_6274a.dir/src.c.obj  -o cmTC_6274a 
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/../../../../arm-buildroot-linux-gnueabihf/bin/ld: CMakeFiles/cmTC_6274a.dir/src.c.obj: in function `main':
+src.c:(.text.startup.main+0x1c): undefined reference to `pthread_create'
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/../../../../arm-buildroot-linux-gnueabihf/bin/ld: src.c:(.text.startup.main+0x24): undefined reference to `pthread_detach'
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/../../../../arm-buildroot-linux-gnueabihf/bin/ld: src.c:(.text.startup.main+0x30): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_6274a.dir/build.make:87: cmTC_6274a] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6274a/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7a160/fast && /usr/bin/make -f CMakeFiles/cmTC_7a160.dir/build.make CMakeFiles/cmTC_7a160.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a160.dir/CheckFunctionExists.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-undef -Wno-strict-prototypes -Wno-shadow -Wno-unused-function -DCHECK_FUNCTION_EXISTS=pthread_create -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7a160.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a160
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a160.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -Wno-undef -Wno-strict-prototypes -Wno-shadow -Wno-unused-function -DCHECK_FUNCTION_EXISTS=pthread_create -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_7a160.dir/CheckFunctionExists.c.obj  -o cmTC_7a160  -lpthreads 
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/../../../../arm-buildroot-linux-gnueabihf/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_7a160.dir/build.make:87: cmTC_7a160] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7a160/fast] Error 2
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a027a/fast && /usr/bin/make -f CMakeFiles/cmTC_a027a.dir/build.make CMakeFiles/cmTC_a027a.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a027a.dir/CheckFunctionExists.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_a027a.dir/CheckFunctionExists.c.obj   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a027a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a027a.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_a027a.dir/CheckFunctionExists.c.obj  -o cmTC_a027a 
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/../lib/gcc/arm-buildroot-linux-gnueabihf/7.5.0/../../../../arm-buildroot-linux-gnueabihf/bin/ld: CMakeFiles/cmTC_a027a.dir/CheckFunctionExists.c.obj: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_a027a.dir/build.make:87: cmTC_a027a] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a027a/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_962ec/fast && /usr/bin/make -f CMakeFiles/cmTC_962ec.dir/build.make CMakeFiles/cmTC_962ec.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_962ec.dir/src.cxx.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_962ec.dir/src.cxx.obj -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_962ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_962ec.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_962ec.dir/src.cxx.obj  -o cmTC_962ec 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38f23/fast && /usr/bin/make -f CMakeFiles/cmTC_38f23.dir/build.make CMakeFiles/cmTC_38f23.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_38f23.dir/src.cxx.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_38f23.dir/src.cxx.obj -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_38f23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38f23.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_38f23.dir/src.cxx.obj  -o cmTC_38f23 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_28f89/fast && /usr/bin/make -f CMakeFiles/cmTC_28f89.dir/build.make CMakeFiles/cmTC_28f89.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28f89.dir/src.cxx.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_28f89.dir/src.cxx.obj -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_28f89
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28f89.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_28f89.dir/src.cxx.obj  -o cmTC_28f89 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6884/fast && /usr/bin/make -f CMakeFiles/cmTC_f6884.dir/build.make CMakeFiles/cmTC_f6884.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f6884.dir/src.cxx.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_f6884.dir/src.cxx.obj -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_f6884
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6884.dir/link.txt --verbose=1
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-g++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections  CMakeFiles/cmTC_f6884.dir/src.cxx.obj  -o cmTC_f6884 
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ea90/fast && /usr/bin/make -f CMakeFiles/cmTC_0ea90.dir/build.make CMakeFiles/cmTC_0ea90.dir/build
+make[1]: Entering directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ea90.dir/CheckIncludeFile.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -fomit-frame-pointer -ffunction-sections -fdata-sections  -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_0ea90.dir/CheckIncludeFile.c.obj   -c /home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+ #include <sys/videoio.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_0ea90.dir/build.make:66: CMakeFiles/cmTC_0ea90.dir/CheckIncludeFile.c.obj] Error 1
+make[1]: Leaving directory '/home/xukunyao/projects/Face_DoorLock_linux/opencv-4.5.2/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_0ea90/fast] Error 2
+
+
+

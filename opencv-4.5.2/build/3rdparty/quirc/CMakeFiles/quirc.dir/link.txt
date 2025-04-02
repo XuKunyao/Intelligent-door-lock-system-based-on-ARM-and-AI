@@ -1,0 +1,2 @@
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-ar qc ../lib/libquirc.a  CMakeFiles/quirc.dir/src/decode.c.obj CMakeFiles/quirc.dir/src/quirc.c.obj CMakeFiles/quirc.dir/src/version_db.c.obj
+/home/xukunyao/100ask_imx6ull-sdk/ToolChain/arm-buildroot-linux-gnueabihf_sdk-buildroot/bin/arm-buildroot-linux-gnueabihf-ranlib ../lib/libquirc.a

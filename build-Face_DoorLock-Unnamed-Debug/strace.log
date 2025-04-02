@@ -1,0 +1,640 @@
+26302 execve("./Face_DoorLock", ["./Face_DoorLock"], 0x7ec78d0c /* 18 vars */) = 0
+26302 brk(NULL)                         = 0x1402000
+26302 uname({sysname="Linux", nodename="imx6ull", ...}) = 0
+26302 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f1c000
+26302 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/tls/v7l/neon/vfp/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/tls/v7l/neon/vfp", 0x7ef9f158) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/tls/v7l/neon/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/tls/v7l/neon", 0x7ef9f158) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/tls/v7l/vfp/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/tls/v7l/vfp", 0x7ef9f158) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/tls/v7l/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/tls/v7l", 0x7ef9f158) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/tls/neon/vfp/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/tls/neon/vfp", 0x7ef9f158) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/tls/neon/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/tls/neon", 0x7ef9f158) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/tls/vfp/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/tls/vfp", 0x7ef9f158) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/tls/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/tls", 0x7ef9f158)    = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/v7l/neon/vfp/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/v7l/neon/vfp", 0x7ef9f158) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/v7l/neon/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/v7l/neon", 0x7ef9f158) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/v7l/vfp/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/v7l/vfp", 0x7ef9f158) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/v7l/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/v7l", 0x7ef9f158)    = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/neon/vfp/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/neon/vfp", 0x7ef9f158) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/neon/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/neon", 0x7ef9f158)   = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/vfp/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/lib/vfp", 0x7ef9f158)    = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/lib/libopencv_world.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\08\364\20\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=24990748, ...}) = 0
+26302 mmap2(NULL, 19668356, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x75c2c000
+26302 mprotect(0x76dfa000, 61440, PROT_NONE) = 0
+26302 mmap2(0x76e09000, 249856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11cd000) = 0x76e09000
+26302 mmap2(0x76e46000, 687492, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x76e46000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/tls/v7l/neon/vfp/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/tls/v7l/neon/vfp", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/tls/v7l/neon/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/tls/v7l/neon", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/tls/v7l/vfp/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/tls/v7l/vfp", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/tls/v7l/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/tls/v7l", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/tls/neon/vfp/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/tls/neon/vfp", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/tls/neon/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/tls/neon", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/tls/vfp/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/tls/vfp", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/tls/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/tls", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/v7l/neon/vfp/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/v7l/neon/vfp", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/v7l/neon/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/v7l/neon", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/v7l/vfp/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/v7l/vfp", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/v7l/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/v7l", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/neon/vfp/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/neon/vfp", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/neon/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/neon", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/vfp/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 stat64("/usr/lib/vfp", 0x7ef9f140) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libQt5Widgets.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\340Y\20\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=4341908, ...}) = 0
+26302 mmap2(NULL, 4406968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x757f8000
+26302 mprotect(0x75bff000, 61440, PROT_NONE) = 0
+26302 mmap2(0x75c0e000, 122880, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x406000) = 0x75c0e000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libQt5Gui.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libQt5Gui.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\260\202\v\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=3203116, ...}) = 0
+26302 mmap2(NULL, 3280080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x754d7000
+26302 mprotect(0x757d5000, 65536, PROT_NONE) = 0
+26302 mmap2(0x757e5000, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2fe000) = 0x757e5000
+26302 mmap2(0x757f5000, 11472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x757f5000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libQt5Network.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libQt5Network.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\20!\3\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=1024312, ...}) = 0
+26302 mmap2(NULL, 1090316, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x753cc000
+26302 mprotect(0x754c2000, 61440, PROT_NONE) = 0
+26302 mmap2(0x754d1000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf5000) = 0x754d1000
+26302 mmap2(0x754d6000, 780, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x754d6000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libQt5Core.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libQt5Core.so.5", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\320\323\7\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=3626796, ...}) = 0
+26302 mmap2(NULL, 3704656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x75043000
+26302 mprotect(0x753ae000, 61440, PROT_NONE) = 0
+26302 mmap2(0x753bd000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x36a000) = 0x753bd000
+26302 mmap2(0x753c9000, 10064, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x753c9000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libGLESv2.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libGLESv2.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\230U\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=38028, ...}) = 0
+26302 mmap2(NULL, 102448, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x75029000
+26302 mprotect(0x75032000, 61440, PROT_NONE) = 0
+26302 mmap2(0x75041000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x75041000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libpthread.so.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\330O\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=129936, ...}) = 0
+26302 mmap2(NULL, 168544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x74fff000
+26302 mprotect(0x75016000, 61440, PROT_NONE) = 0
+26302 mmap2(0x75025000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x75025000
+26302 mmap2(0x75027000, 4704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x75027000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libstdc++.so.6", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libstdc++.so.6", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\340\214\7\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=1033804, ...}) = 0
+26302 mmap2(NULL, 1105740, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x74ef1000
+26302 mprotect(0x74fe7000, 61440, PROT_NONE) = 0
+26302 mmap2(0x74ff6000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf5000) = 0x74ff6000
+26302 mmap2(0x74ffe000, 3916, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x74ffe000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libm.so.6", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\230r\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=365928, ...}) = 0
+26302 mmap2(NULL, 430192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x74e87000
+26302 mprotect(0x74ee0000, 61440, PROT_NONE) = 0
+26302 mmap2(0x74eef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x58000) = 0x74eef000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libgcc_s.so.1", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0(\364\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0644, st_size=124400, ...}) = 0
+26302 mmap2(NULL, 188716, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x74e58000
+26302 mprotect(0x74e76000, 61440, PROT_NONE) = 0
+26302 mmap2(0x74e85000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x74e85000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libc.so.6", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\334w\1\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=1241860, ...}) = 0
+26302 mmap2(NULL, 1311420, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x74d17000
+26302 mprotect(0x74e43000, 61440, PROT_NONE) = 0
+26302 mmap2(0x74e52000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12b000) = 0x74e52000
+26302 mmap2(0x74e55000, 8892, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x74e55000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libatomic.so.1", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\270\25\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=13520, ...}) = 0
+26302 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f1a000
+26302 mmap2(NULL, 81980, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x74d02000
+26302 mprotect(0x74d05000, 61440, PROT_NONE) = 0
+26302 mmap2(0x74d14000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x74d14000
+26302 mmap2(0x74d16000, 60, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x74d16000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/librt.so.1", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\3\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\200\27\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=26440, ...}) = 0
+26302 mmap2(NULL, 90640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x74ceb000
+26302 mprotect(0x74cf1000, 61440, PROT_NONE) = 0
+26302 mmap2(0x74d00000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x74d00000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libdl.so.2", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\210\t\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=9612, ...}) = 0
+26302 mmap2(NULL, 73916, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x74cd8000
+26302 mprotect(0x74cda000, 61440, PROT_NONE) = 0
+26302 mmap2(0x74ce9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x74ce9000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libpng16.so.16", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libpng16.so.16", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0 H\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=153460, ...}) = 0
+26302 mmap2(NULL, 217780, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x74ca2000
+26302 mprotect(0x74cc7000, 61440, PROT_NONE) = 0
+26302 mmap2(0x74cd6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x74cd6000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libz.so.1", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libz.so.1", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\214\34\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=75276, ...}) = 0
+26302 mmap2(NULL, 139488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x74c7f000
+26302 mprotect(0x74c91000, 61440, PROT_NONE) = 0
+26302 mmap2(0x74ca0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x74ca0000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libharfbuzz.so.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libharfbuzz.so.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0 |\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=544012, ...}) = 0
+26302 mmap2(NULL, 608720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x74bea000
+26302 mprotect(0x74c6e000, 61440, PROT_NONE) = 0
+26302 mmap2(0x74c7d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x83000) = 0x74c7d000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libicui18n.so.65", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libicui18n.so.65", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\330\215\r\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=2221808, ...}) = 0
+26302 mmap2(NULL, 2288880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x749bb000
+26302 mprotect(0x74bd1000, 61440, PROT_NONE) = 0
+26302 mmap2(0x74be0000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x215000) = 0x74be0000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libicuuc.so.65", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libicuuc.so.65", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0P\2\5\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=1436032, ...}) = 0
+26302 mmap2(NULL, 1506948, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7484b000
+26302 mprotect(0x749a0000, 61440, PROT_NONE) = 0
+26302 mmap2(0x749af000, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x154000) = 0x749af000
+26302 mmap2(0x749ba000, 3716, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x749ba000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libicudata.so.65", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libicudata.so.65", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\340\2\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=27980984, ...}) = 0
+26302 mmap2(NULL, 28045356, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x72d8b000
+26302 mprotect(0x7483a000, 61440, PROT_NONE) = 0
+26302 mmap2(0x74849000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1aae000) = 0x74849000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libpcre2-16.so.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libpcre2-16.so.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\200\30\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=272032, ...}) = 0
+26302 mmap2(NULL, 336352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x72d38000
+26302 mprotect(0x72d7a000, 61440, PROT_NONE) = 0
+26302 mmap2(0x72d89000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x41000) = 0x72d89000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libgthread-2.0.so.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libgthread-2.0.so.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\354\3\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=5312, ...}) = 0
+26302 mmap2(NULL, 69684, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x72d26000
+26302 mprotect(0x72d27000, 61440, PROT_NONE) = 0
+26302 mmap2(0x72d36000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x72d36000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libglib-2.0.so.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libglib-2.0.so.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0000\224\1\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=986224, ...}) = 0
+26302 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f18000
+26302 mmap2(NULL, 1052396, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x72c25000
+26302 mprotect(0x72d15000, 61440, PROT_NONE) = 0
+26302 mmap2(0x72d24000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xef000) = 0x72d24000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libglapi.so.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libglapi.so.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0 t\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=169360, ...}) = 0
+26302 mmap2(NULL, 236700, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x72beb000
+26302 mprotect(0x72c11000, 61440, PROT_NONE) = 0
+26302 mmap2(0x72c20000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x72c20000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libfreetype.so.6", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libfreetype.so.6", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\330l\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=489312, ...}) = 0
+26302 mmap2(NULL, 553628, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x72b63000
+26302 mprotect(0x72bd7000, 61440, PROT_NONE) = 0
+26302 mmap2(0x72be6000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x73000) = 0x72be6000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libbz2.so.1.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libbz2.so.1.0", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0p\17\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=49568, ...}) = 0
+26302 mmap2(NULL, 113888, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x72b47000
+26302 mprotect(0x72b52000, 61440, PROT_NONE) = 0
+26302 mmap2(0x72b61000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x72b61000
+26302 close(3)                          = 0
+26302 openat(AT_FDCWD, "/lib/libpcre.so.1", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 openat(AT_FDCWD, "/usr/lib/libpcre.so.1", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0004\r\0\0004\0\0\0"..., 512) = 512
+26302 fstat64(3, {st_mode=S_IFREG|0755, st_size=234900, ...}) = 0
+26302 mmap2(NULL, 299228, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x72afd000
+26302 mprotect(0x72b36000, 61440, PROT_NONE) = 0
+26302 mmap2(0x72b45000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x38000) = 0x72b45000
+26302 close(3)                          = 0
+26302 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f16000
+26302 set_tls(0x76f174f0)               = 0
+26302 mprotect(0x74e52000, 8192, PROT_READ) = 0
+26302 mprotect(0x72b45000, 4096, PROT_READ) = 0
+26302 mprotect(0x72b61000, 4096, PROT_READ) = 0
+26302 mprotect(0x74eef000, 4096, PROT_READ) = 0
+26302 mprotect(0x74ca0000, 4096, PROT_READ) = 0
+26302 mprotect(0x74cd6000, 4096, PROT_READ) = 0
+26302 mprotect(0x72be6000, 16384, PROT_READ) = 0
+26302 mprotect(0x75025000, 4096, PROT_READ) = 0
+26302 mprotect(0x72c20000, 16384, PROT_READ) = 0
+26302 mprotect(0x72d24000, 4096, PROT_READ) = 0
+26302 mprotect(0x72d36000, 4096, PROT_READ) = 0
+26302 mprotect(0x72d89000, 4096, PROT_READ) = 0
+26302 mprotect(0x74849000, 4096, PROT_READ) = 0
+26302 mprotect(0x74e85000, 4096, PROT_READ) = 0
+26302 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f14000
+26302 mprotect(0x74ff6000, 20480, PROT_READ) = 0
+26302 mprotect(0x74d14000, 4096, PROT_READ) = 0
+26302 mprotect(0x74ce9000, 4096, PROT_READ) = 0
+26302 mprotect(0x749af000, 40960, PROT_READ) = 0
+26302 mprotect(0x74be0000, 32768, PROT_READ) = 0
+26302 mprotect(0x74c7d000, 4096, PROT_READ) = 0
+26302 mprotect(0x74d00000, 4096, PROT_READ) = 0
+26302 mprotect(0x75041000, 4096, PROT_READ) = 0
+26302 mprotect(0x753bd000, 28672, PROT_READ) = 0
+26302 mprotect(0x754d1000, 12288, PROT_READ) = 0
+26302 mprotect(0x757e5000, 32768, PROT_READ) = 0
+26302 mprotect(0x75c0e000, 90112, PROT_READ) = 0
+26302 mmap2(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x76f11000
+26302 mprotect(0x76e09000, 184320, PROT_READ) = 0
+26302 mprotect(0x2f000, 4096, PROT_READ) = 0
+26302 mprotect(0x76f1e000, 4096, PROT_READ) = 0
+26302 set_tid_address(0x76f17098)       = 26302
+26302 set_robust_list(0x76f170a0, 12)   = 0
+26302 rt_sigaction(SIGRTMIN, {sa_handler=0x75003998, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x74d44ba0}, NULL, 8) = 0
+26302 rt_sigaction(SIGRT_1, {sa_handler=0x75003a54, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x74d44ba0}, NULL, 8) = 0
+26302 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+26302 ugetrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+26302 brk(NULL)                         = 0x1402000
+26302 brk(0x1423000)                    = 0x1423000
+26302 gettimeofday({tv_sec=2612, tv_usec=871132}, NULL) = 0
+26302 futex(0x74ffdb20, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26302 futex(0x74ffdb24, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26302 clock_gettime(CLOCK_MONOTONIC, {tv_sec=2612, tv_nsec=876311978}) = 0
+26302 openat(AT_FDCWD, "/proc/self/auxv", O_RDONLY|O_LARGEFILE) = 3
+26302 read(3, "!\0\0\0\0\240\372~", 8)  = 8
+26302 read(3, "\20\0\0\0\326\260\37\0", 8) = 8
+26302 close(3)                          = 0
+26302 brk(0x1444000)                    = 0x1444000
+26302 geteuid32()                       = 0
+26302 getuid32()                        = 0
+26302 futex(0x753c8cc0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26302 futex(0x749ba4dc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26302 lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+26302 lstat64("/usr/lib/qt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 getpid()                          = 26302
+26302 access("/proc/26302/exe", F_OK)   = 0
+26302 fstatat64(AT_FDCWD, "/proc/26302/exe", {st_mode=S_IFLNK|0777, st_size=0, ...}, AT_SYMLINK_NOFOLLOW) = 0
+26302 lstat64("/proc", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+26302 lstat64("/proc/26302", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+26302 lstat64("/proc/26302/exe", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+26302 readlink("/proc/26302/exe", "/mnt/Face_DoorLock/build-Face_Do"..., 4095) = 66
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/Face_DoorLock", {st_mode=S_IFREG|0775, st_size=2100440, ...}) = 0
+26302 access("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/qt.conf", F_OK) = -1 ENOENT (No such file or directory)
+26302 access("/usr/lib/qt/plugins", F_OK) = 0
+26302 lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+26302 lstat64("/usr/lib/qt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 access("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", F_OK) = 0
+26302 openat(AT_FDCWD, "/usr/qtlogging.ini", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+26302 fstatat64(AT_FDCWD, "/root/.config/QtProject/qtlogging.ini", 0x7ef9f3a8, 0) = -1 ENOENT (No such file or directory)
+26302 fstatat64(AT_FDCWD, "/etc/xdg/QtProject/qtlogging.ini", 0x7ef9f3a8, 0) = -1 ENOENT (No such file or directory)
+26302 getrandom("\xf6\x85\x2f\x95", 4, 0) = 4
+26302 clock_gettime(CLOCK_MONOTONIC, {tv_sec=2612, tv_nsec=934620978}) = 0
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 83) = 83
+26302 access("/usr/lib/qt/plugins/.", F_OK) = 0
+26302 openat(AT_FDCWD, "/usr/lib/qt/plugins", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 3
+26302 fstat64(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 getdents64(3, /* 19 entries */, 32768) = 632
+26302 getdents64(3, /* 0 entries */, 32768) = 0
+26302 close(3)                          = 0
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 116) = 116
+26302 access("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/.", F_OK) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 3
+26302 fstat64(3, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 getdents64(3, /* 15 entries */, 32768) = 552
+26302 getdents64(3, /* 0 entries */, 32768) = 0
+26302 close(3)                          = 0
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 113) = 113
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/Face_DoorLock", {st_mode=S_IFREG|0775, st_size=2100440, ...}) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/Face_DoorLock", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0775, st_size=2100440, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0775, st_size=2100440, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 2100440, PROT_READ, MAP_SHARED, 3, 0) = 0x728fc000
+26302 close(3)                          = 0
+26302 munmap(0x728fc000, 2100440)       = 0
+26302 write(2, "\"Failed to extract plugin meta d"..., 134) = 134
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 115) = 115
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/face_doorlock.o", {st_mode=S_IFREG|0664, st_size=1549188, ...}) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/face_doorlock.o", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=1549188, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=1549188, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 1549188, PROT_READ, MAP_SHARED, 3, 0) = 0x72982000
+26302 close(3)                          = 0
+26302 munmap(0x72982000, 1549188)       = 0
+26302 write(2, "\"Failed to extract plugin meta d"..., 136) = 136
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 132) = 132
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/haarcascade_frontalface_alt2.xml", {st_mode=S_IFREG|0766, st_size=540616, ...}) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/haarcascade_frontalface_alt2.xml", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0766, st_size=540616, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0766, st_size=540616, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 540616, PROT_READ, MAP_SHARED, 3, 0) = 0x72a79000
+26302 write(2, "QElfParser: '/mnt/Face_DoorLock/"..., 121) = 121
+26302 close(3)                          = 0
+26302 munmap(0x72a79000, 540616)        = 0
+26302 write(2, "\"'/mnt/Face_DoorLock/build-Face_"..., 134) = 134
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 106) = 106
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/main.o", {st_mode=S_IFREG|0664, st_size=1283736, ...}) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/main.o", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=1283736, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=1283736, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 1283736, PROT_READ, MAP_SHARED, 3, 0) = 0x729c3000
+26302 close(3)                          = 0
+26302 munmap(0x729c3000, 1283736)       = 0
+26302 write(2, "\"Failed to extract plugin meta d"..., 127) = 127
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 108) = 108
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/Makefile", {st_mode=S_IFREG|0664, st_size=106408, ...}) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/Makefile", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=106408, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=106408, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 106408, PROT_READ, MAP_SHARED, 3, 0) = 0x72ae3000
+26302 write(2, "QElfParser: '/mnt/Face_DoorLock/"..., 97) = 97
+26302 close(3)                          = 0
+26302 munmap(0x72ae3000, 106408)        = 0
+26302 write(2, "\"'/mnt/Face_DoorLock/build-Face_"..., 110) = 110
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 121) = 121
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/moc_face_doorlock.cpp", {st_mode=S_IFREG|0664, st_size=3972, ...}) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/moc_face_doorlock.cpp", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=3972, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=3972, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 3972, PROT_READ, MAP_SHARED, 3, 0) = 0x76f10000
+26302 write(2, "QElfParser: '/mnt/Face_DoorLock/"..., 110) = 110
+26302 close(3)                          = 0
+26302 munmap(0x76f10000, 3972)          = 0
+26302 write(2, "\"'/mnt/Face_DoorLock/build-Face_"..., 123) = 123
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 119) = 119
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/moc_face_doorlock.o", {st_mode=S_IFREG|0664, st_size=1293880, ...}) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/moc_face_doorlock.o", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=1293880, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=1293880, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 1293880, PROT_READ, MAP_SHARED, 3, 0) = 0x729c1000
+26302 close(3)                          = 0
+26302 munmap(0x729c1000, 1293880)       = 0
+26302 write(2, "\"Failed to extract plugin meta d"..., 140) = 140
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 113) = 113
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/moc_predefs.h", {st_mode=S_IFREG|0664, st_size=15872, ...}) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/moc_predefs.h", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=15872, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=15872, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 15872, PROT_READ, MAP_SHARED, 3, 0) = 0x72af9000
+26302 write(2, "QElfParser: '/mnt/Face_DoorLock/"..., 102) = 102
+26302 close(3)                          = 0
+26302 munmap(0x72af9000, 15872)         = 0
+26302 write(2, "\"'/mnt/Face_DoorLock/build-Face_"..., 115) = 115
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 113) = 113
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/qrc_image.cpp", {st_mode=S_IFREG|0664, st_size=68793, ...}) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/qrc_image.cpp", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=68793, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=68793, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 68793, PROT_READ, MAP_SHARED, 3, 0) = 0x72aec000
+26302 write(2, "QElfParser: '/mnt/Face_DoorLock/"..., 102) = 102
+26302 close(3)                          = 0
+26302 munmap(0x72aec000, 68793)         = 0
+26302 write(2, "\"'/mnt/Face_DoorLock/build-Face_"..., 115) = 115
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 111) = 111
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/qrc_image.o", {st_mode=S_IFREG|0664, st_size=18616, ...}) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/qrc_image.o", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=18616, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=18616, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 18616, PROT_READ, MAP_SHARED, 3, 0) = 0x72af8000
+26302 close(3)                          = 0
+26302 munmap(0x72af8000, 18616)         = 0
+26302 write(2, "\"Failed to extract plugin meta d"..., 132) = 132
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 110) = 110
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/strace.log", {st_mode=S_IFREG|0644, st_size=42415, ...}) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/strace.log", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0644, st_size=42612, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0644, st_size=42698, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 42698, PROT_READ, MAP_SHARED, 3, 0) = 0x72af2000
+26302 write(2, "QElfParser: '/mnt/Face_DoorLock/"..., 99) = 99
+26302 close(3)                          = 0
+26302 munmap(0x72af2000, 42698)         = 0
+26302 write(2, "\"'/mnt/Face_DoorLock/build-Face_"..., 112) = 112
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 118) = 118
+26302 lstat64("/mnt", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+26302 lstat64("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/ui_face_doorlock.h", {st_mode=S_IFREG|0664, st_size=13425, ...}) = 0
+26302 openat(AT_FDCWD, "/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/ui_face_doorlock.h", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=13425, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0664, st_size=13425, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 13425, PROT_READ, MAP_SHARED, 3, 0) = 0x72af9000
+26302 write(2, "QElfParser: '/mnt/Face_DoorLock/"..., 107) = 107
+26302 close(3)                          = 0
+26302 munmap(0x72af9000, 13425)         = 0
+26302 write(2, "\"'/mnt/Face_DoorLock/build-Face_"..., 120) = 120
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 93) = 93
+26302 access("/usr/lib/qt/plugins/platforms/.", F_OK) = 0
+26302 openat(AT_FDCWD, "/usr/lib/qt/plugins/platforms", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_CLOEXEC|O_DIRECTORY) = 3
+26302 fstat64(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 getdents64(3, /* 7 entries */, 32768) = 232
+26302 getdents64(3, /* 0 entries */, 32768) = 0
+26302 close(3)                          = 0
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 89) = 89
+26302 lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+26302 lstat64("/usr/lib/qt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins/platforms/libqeglfs.so", {st_mode=S_IFREG|0755, st_size=12300, ...}) = 0
+26302 openat(AT_FDCWD, "/usr/lib/qt/plugins/platforms/libqeglfs.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0755, st_size=12300, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0755, st_size=12300, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 12300, PROT_READ, MAP_SHARED, 3, 0) = 0x72af9000
+26302 write(2, "Found metadata in lib /usr/lib/q"..., 318) = 318
+26302 close(3)                          = 0
+26302 munmap(0x72af9000, 12300)         = 0
+26302 write(2, "Got keys from plugin meta data ("..., 41) = 41
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 91) = 91
+26302 lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+26302 lstat64("/usr/lib/qt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins/platforms/libqlinuxfb.so", {st_mode=S_IFREG|0755, st_size=283020, ...}) = 0
+26302 openat(AT_FDCWD, "/usr/lib/qt/plugins/platforms/libqlinuxfb.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0755, st_size=283020, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0755, st_size=283020, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 283020, PROT_READ, MAP_SHARED, 3, 0) = 0x72ab7000
+26302 write(2, "Found metadata in lib /usr/lib/q"..., 342) = 342
+26302 close(3)                          = 0
+26302 munmap(0x72ab7000, 283020)        = 0
+26302 write(2, "Got keys from plugin meta data ("..., 43) = 43
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 91) = 91
+26302 lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+26302 lstat64("/usr/lib/qt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins/platforms/libqminimal.so", {st_mode=S_IFREG|0755, st_size=92668, ...}) = 0
+26302 openat(AT_FDCWD, "/usr/lib/qt/plugins/platforms/libqminimal.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0755, st_size=92668, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0755, st_size=92668, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 92668, PROT_READ, MAP_SHARED, 3, 0) = 0x72ae6000
+26302 write(2, "Found metadata in lib /usr/lib/q"..., 342) = 342
+26302 close(3)                          = 0
+26302 munmap(0x72ae6000, 92668)         = 0
+26302 write(2, "Got keys from plugin meta data ("..., 43) = 43
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 93) = 93
+26302 lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+26302 lstat64("/usr/lib/qt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins/platforms/libqoffscreen.so", {st_mode=S_IFREG|0755, st_size=105156, ...}) = 0
+26302 openat(AT_FDCWD, "/usr/lib/qt/plugins/platforms/libqoffscreen.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0755, st_size=105156, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0755, st_size=105156, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 105156, PROT_READ, MAP_SHARED, 3, 0) = 0x72ae3000
+26302 write(2, "Found metadata in lib /usr/lib/q"..., 348) = 348
+26302 close(3)                          = 0
+26302 munmap(0x72ae3000, 105156)        = 0
+26302 write(2, "Got keys from plugin meta data ("..., 45) = 45
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 87) = 87
+26302 lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+26302 lstat64("/usr/lib/qt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins/platforms/libqvnc.so", {st_mode=S_IFREG|0755, st_size=159132, ...}) = 0
+26302 openat(AT_FDCWD, "/usr/lib/qt/plugins/platforms/libqvnc.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 fstatat64(3, "", {st_mode=S_IFREG|0755, st_size=159132, ...}, AT_EMPTY_PATH) = 0
+26302 fstatat64(3, "", {st_mode=S_IFREG|0755, st_size=159132, ...}, AT_EMPTY_PATH) = 0
+26302 mmap2(NULL, 159132, PROT_READ, MAP_SHARED, 3, 0) = 0x72ad6000
+26302 write(2, "Found metadata in lib /usr/lib/q"..., 330) = 330
+26302 close(3)                          = 0
+26302 munmap(0x72ad6000, 159132)        = 0
+26302 write(2, "Got keys from plugin meta data ("..., 39) = 39
+26302 write(2, "QFactoryLoader::QFactoryLoader()"..., 126) = 126
+26302 access("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/platforms/.", F_OK) = -1 ENOENT (No such file or directory)
+26302 access("/mnt/Face_DoorLock/build-Face_DoorLock-Unnamed-Debug/qt.conf", F_OK) = -1 ENOENT (No such file or directory)
+26302 lstat64("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+26302 lstat64("/usr/lib/qt", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 lstat64("/usr/lib/qt/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+26302 futex(0x74cea0b0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+26302 openat(AT_FDCWD, "/usr/lib/qt/plugins/platforms/libqeglfs.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 3
+26302 read(3, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0,\16\0\0004\0\0\0"..., 512) = 512
+26302 close(3)                          = 0
+26302 access("/usr/lib/qt/plugins/platforms/libqeglfs.so", F_OK) = 0
+26302 write(2, "Cannot load library /usr/lib/qt/"..., 125) = 125
+26302 write(2, "QLibraryPrivate::loadPlugin fail"..., 212) = 212
+26302 write(2, "qt.qpa.plugin: Could not load th"..., 112) = 112
+26302 write(2, "This application failed to start"..., 211) = 211
+26302 rt_sigprocmask(SIG_UNBLOCK, [ABRT], NULL, 8) = 0
+26302 rt_sigprocmask(SIG_BLOCK, ~[RTMIN RT_1], [], 8) = 0
+26302 getpid()                          = 26302
+26302 gettid()                          = 26302
+26302 tgkill(26302, 26302, SIGABRT)     = 0
+26302 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+26302 --- SIGABRT {si_signo=SIGABRT, si_code=SI_TKILL, si_pid=26302, si_uid=0} ---
+26302 +++ killed by SIGABRT +++
