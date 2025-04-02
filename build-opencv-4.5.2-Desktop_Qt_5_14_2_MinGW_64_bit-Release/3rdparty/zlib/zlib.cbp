@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\platforms\;CMake Files\cmake\checks\;CMake Files\cmake\templates\;CMake Files\modules\;CMake Files\modules\core\;CMake Files\modules\core\include\;CMake Files\modules\core\include\opencv2\;CMake Files\modules\core\include\opencv2\core\;CMake Files\modules\core\misc\;CMake Files\modules\core\misc\java\;CMake Files\modules\core\misc\java\src\;CMake Files\modules\core\misc\java\src\java\;CMake Files\modules\gapi\;CMake Files\modules\gapi\cmake\;CMake Files\modules\videoio\;CMake Files\modules\videoio\cmake\;CMake Files\modules\calib3d\;CMake Files\modules\dnn\;CMake Files\modules\dnn\cmake\;CMake Files\modules\dnn\cmake\hooks\;CMake Files\modules\features2d\;CMake Files\modules\flann\;CMake Files\modules\highgui\;CMake Files\modules\imgcodecs\;CMake Files\modules\imgproc\;CMake Files\modules\java\;CMake Files\modules\java\generator\;CMake Files\modules\java\generator\android\;CMake Files\modules\java\generator\android\java\;CMake Files\modules\java\generator\android\java\org\;CMake Files\modules\java\generator\android\java\org\opencv\;CMake Files\modules\java\generator\android\java\org\opencv\android\;CMake Files\modules\java\generator\src\;CMake Files\modules\java\generator\src\java\;CMake Files\modules\java\generator\src\java\org\;CMake Files\modules\java\generator\src\java\org\opencv\;CMake Files\modules\java\generator\src\java\org\opencv\osgi\;CMake Files\modules\js\;CMake Files\modules\js\generator\;CMake Files\modules\ml\;CMake Files\modules\objc\;CMake Files\modules\objc\generator\;CMake Files\modules\objdetect\;CMake Files\modules\photo\;CMake Files\modules\python\;CMake Files\modules\python\package\;CMake Files\modules\python\package\template\;CMake Files\modules\python\bindings\;CMake Files\modules\python\test\;CMake Files\modules\python\python2\;CMake Files\modules\python\python3\;CMake Files\modules\stitching\;CMake Files\modules\ts\;CMake Files\modules\video\;CMake Files\modules\world\;CMake Files\3rdparty\;CMake Files\3rdparty\zlib\;CMake Files\3rdparty\libjpeg-turbo\;CMake Files\3rdparty\libtiff\;CMake Files\3rdparty\libwebp\;CMake Files\3rdparty\openjpeg\;CMake Files\3rdparty\openjpeg\openjp2\;CMake Files\3rdparty\libpng\;CMake Files\3rdparty\openexr\;CMake Files\3rdparty\protobuf\;CMake Files\3rdparty\quirc\;CMake Files\3rdparty\ffmpeg\;CMake Files\include\;CMake Files\..\;CMake Files\..\build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release\;CMake Files\..\build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release\3rdparty\;CMake Files\..\build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release\3rdparty\ffmpeg\;CMake Files\..\opencv_contrib-4.5.2\;CMake Files\..\opencv_contrib-4.5.2\modules\;CMake Files\..\opencv_contrib-4.5.2\modules\face\;CMake Files\doc\;CMake Files\data\;CMake Files\apps\;CMake Files\apps\annotation\;CMake Files\apps\visualisation\;CMake Files\apps\interactive-calibration\;CMake Files\apps\version\;CMake Files\apps\model-diagnostics\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/EXE/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/EXE/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/EXE/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/EXE/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib">
+				<Option output="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/lib/libzlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-DZ_HAVE_UNISTD_H"/>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib"/>
+					<Add directory="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"/>
+					<Add directory="F:/EXE/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="F:/EXE/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/EXE/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="F:/EXE/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="F:/EXE/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="F:/EXE/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/EXE/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib/Makefile&quot;  VERBOSE=1 zlib"/>
+					<CompileFile command="F:/EXE/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/EXE/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/EXE/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zlib/fast">
+				<Option output="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/lib/libzlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-DZ_HAVE_UNISTD_H"/>
+					<Add option="-D_LARGEFILE64_SOURCE=1"/>
+					<Add directory="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib"/>
+					<Add directory="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"/>
+					<Add directory="F:/EXE/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="F:/EXE/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="F:/EXE/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="F:/EXE/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="F:/EXE/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="F:/EXE/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/EXE/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib/Makefile&quot;  VERBOSE=1 zlib/fast"/>
+					<CompileFile command="F:/EXE/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/EXE/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/EXE/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/zlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/adler32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/compress.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/crc32.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/crc32.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/deflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/deflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/gzclose.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/gzguts.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/gzlib.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/gzread.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/gzwrite.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/infback.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/inffast.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/inffast.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/inffixed.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/inflate.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/inflate.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/inftrees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/inftrees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/trees.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/trees.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/uncompr.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/zconf.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/zlib.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/zutil.c">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/zutil.h">
+			<Option target="zlib"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVCompilerOptimizations.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVCompilerOptions.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVDetectApacheAnt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVDetectCXXCompiler.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVDetectDirectX.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVDetectOpenCL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVDetectPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVDetectTrace.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVDetectVTK.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVDownload.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVExtraTargets.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVFindFrameworks.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVFindLAPACK.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVFindLibsGUI.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVFindLibsGrfmt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVFindLibsPerf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVFindLibsVideo.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVFindMKL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVFindOpenBLAS.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVFindProtobuf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVGenABI.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVGenAndroidMK.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVGenConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVGenHeaders.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVGenSetupVars.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVInstallLayout.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVMinDepVersions.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVModule.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVPCHSupport.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVPackaging.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/OpenCVVersion.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/platforms/OpenCV-Windows.cmake">
+			<Option virtualFolder="CMake Files\cmake\platforms\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_avx.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_avx2.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_avx512.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_avx512common.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_avx512skx.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_fp16.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_popcnt.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_sse.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_sse2.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_sse3.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_sse41.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_sse42.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/cpu_ssse3.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/directx.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/opencl.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/checks/win32uitest.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/templates/OpenCVConfig-version.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/templates/OpenCVConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/templates/OpenCVConfig.root-WIN32.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/templates/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/templates/custom_hal.hpp.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/templates/cv_cpu_config.h.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/templates/cvconfig.h.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/templates/dllmain.cpp.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/templates/opencv_modules.hpp.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/templates/setup_vars_win32.cmd.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/cmake/templates/vs_version.rc.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\core\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/include/opencv2/core/version.hpp">
+			<Option virtualFolder="CMake Files\modules\core\include\opencv2\core\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/misc/java/src/java/core+Core.jcode.in">
+			<Option virtualFolder="CMake Files\modules\core\misc\java\src\java\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/gapi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\gapi\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/gapi/cmake/DownloadADE.cmake">
+			<Option virtualFolder="CMake Files\modules\gapi\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/gapi/cmake/init.cmake">
+			<Option virtualFolder="CMake Files\modules\gapi\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videoio\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/cmake/detect_dc1394.cmake">
+			<Option virtualFolder="CMake Files\modules\videoio\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/cmake/detect_dshow.cmake">
+			<Option virtualFolder="CMake Files\modules\videoio\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/cmake/detect_ffmpeg.cmake">
+			<Option virtualFolder="CMake Files\modules\videoio\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/cmake/detect_gstreamer.cmake">
+			<Option virtualFolder="CMake Files\modules\videoio\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/cmake/init.cmake">
+			<Option virtualFolder="CMake Files\modules\videoio\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/cmake/plugin.cmake">
+			<Option virtualFolder="CMake Files\modules\videoio\cmake\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/calib3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\calib3d\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\dnn\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/cmake/hooks/INIT_MODULE_SOURCES_opencv_dnn.cmake">
+			<Option virtualFolder="CMake Files\modules\dnn\cmake\hooks\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/features2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\features2d\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/flann/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\flann\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/highgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\highgui\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgcodecs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgcodecs\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgproc\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/java/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\java\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/java/common.cmake">
+			<Option virtualFolder="CMake Files\modules\java\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/java/generator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\java\generator\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in">
+			<Option virtualFolder="CMake Files\modules\java\generator\android\java\org\opencv\android\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in">
+			<Option virtualFolder="CMake Files\modules\java\generator\src\java\org\opencv\osgi\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/js/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\js\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/js/common.cmake">
+			<Option virtualFolder="CMake Files\modules\js\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/js/generator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\js\generator\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/ml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ml\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/objc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\objc\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/objc/common.cmake">
+			<Option virtualFolder="CMake Files\modules\objc\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/objc/generator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\objc\generator\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/objdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\objdetect\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/photo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\photo\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/python/python_loader.cmake">
+			<Option virtualFolder="CMake Files\modules\python\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/python/package/template/config.py.in">
+			<Option virtualFolder="CMake Files\modules\python\package\template\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/python/bindings/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\bindings\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/python/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\test\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/python/python2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\python2\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/python/python3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\python3\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/stitching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\stitching\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/ts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ts\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/video/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\video\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/world/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\world\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\zlib\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libjpeg-turbo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libjpeg-turbo\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libjpeg-turbo/jconfig.h.win.in">
+			<Option virtualFolder="CMake Files\3rdparty\libjpeg-turbo\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libjpeg-turbo/jconfigint.h.in">
+			<Option virtualFolder="CMake Files\3rdparty\libjpeg-turbo\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libtiff/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libtiff\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libtiff/tif_config.h.cmake.in">
+			<Option virtualFolder="CMake Files\3rdparty\libtiff\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libtiff/tiffconf.h.cmake.in">
+			<Option virtualFolder="CMake Files\3rdparty\libtiff\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libwebp\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/openjpeg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\openjpeg\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/openjpeg/openjp2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\openjpeg\openjp2\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/openjpeg/openjp2/opj_config.h.cmake.in">
+			<Option virtualFolder="CMake Files\3rdparty\openjpeg\openjp2\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/openjpeg/openjp2/opj_config_private.h.cmake.in">
+			<Option virtualFolder="CMake Files\3rdparty\openjpeg\openjp2\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libpng/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libpng\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/openexr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/openexr/IlmBaseConfig.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/openexr/OpenEXRConfig.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/protobuf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\protobuf\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/quirc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\quirc\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/ffmpeg/ffmpeg.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\ffmpeg\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/../build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/ffmpeg/ffmpeg_version.cmake">
+			<Option virtualFolder="CMake Files\..\build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release\3rdparty\ffmpeg\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/../opencv_contrib-4.5.2/modules/face/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\opencv_contrib-4.5.2\modules\face\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\data\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/apps/annotation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\annotation\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/apps/visualisation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\visualisation\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/apps/interactive-calibration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\interactive-calibration\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/apps/version/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\version\"/>
+		</Unit>
+		<Unit filename="E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/apps/model-diagnostics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\model-diagnostics\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

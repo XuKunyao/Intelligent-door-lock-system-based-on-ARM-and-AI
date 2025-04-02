@@ -1,0 +1,260 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_install_target",
+			"_ocv_create_module",
+			"ocv_create_module",
+			"ocv_define_module"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"cmake/OpenCVModule.cmake",
+			"E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1075,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 852,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1008,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1222,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 5,
+			"component" : "dev",
+			"destination" : "x64/mingw/lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"lib/libopencv_face452.dll.a"
+			],
+			"targetId" : "opencv_face::@d1529e84f98911196969",
+			"targetIndex" : 18,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "libs",
+			"destination" : "x64/mingw/bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"bin/libopencv_face452.dll"
+			],
+			"targetId" : "opencv_face::@d1529e84f98911196969",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "dev",
+			"destination" : "include/opencv2",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/include/opencv2/face.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "dev",
+			"destination" : "include/opencv2/face",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/include/opencv2/face/bif.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "dev",
+			"destination" : "include/opencv2/face",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/include/opencv2/face/face_alignment.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "dev",
+			"destination" : "include/opencv2/face",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/include/opencv2/face/facemark.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "dev",
+			"destination" : "include/opencv2/face",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/include/opencv2/face/facemarkAAM.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "dev",
+			"destination" : "include/opencv2/face",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/include/opencv2/face/facemarkLBF.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "dev",
+			"destination" : "include/opencv2/face",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/include/opencv2/face/facemark_train.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "dev",
+			"destination" : "include/opencv2/face",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/include/opencv2/face/facerec.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "dev",
+			"destination" : "include/opencv2/face",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/include/opencv2/face/mace.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "dev",
+			"destination" : "include/opencv2/face",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/include/opencv2/face/predict_collector.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/face",
+		"source" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face"
+	}
+}

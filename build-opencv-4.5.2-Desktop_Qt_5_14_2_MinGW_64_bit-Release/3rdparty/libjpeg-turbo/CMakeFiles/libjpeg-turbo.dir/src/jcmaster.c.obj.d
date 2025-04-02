@@ -1,0 +1,33 @@
+3rdparty/libjpeg-turbo/CMakeFiles/libjpeg-turbo.dir/src/jcmaster.c.obj: \
+ E:\Program\Linux\Linux_Projects\ARM-DoorLock-Project\opencv-4.5.2\3rdparty\libjpeg-turbo\src\jcmaster.c \
+ E:\Program\Linux\Linux_Projects\ARM-DoorLock-Project\opencv-4.5.2\3rdparty\libjpeg-turbo\src\jinclude.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/libjpeg-turbo/jconfig.h \
+ F:/EXE/QT/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/stddef.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/stddef.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/crtdefs.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/vadefs.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/stdlib.h \
+ F:/EXE/QT/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/limits.h \
+ F:/EXE/QT/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/syslimits.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/limits.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/malloc.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/stdio.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/swprintf.inl \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/string.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ E:\Program\Linux\Linux_Projects\ARM-DoorLock-Project\opencv-4.5.2\3rdparty\libjpeg-turbo\src\jpeglib.h \
+ E:\Program\Linux\Linux_Projects\ARM-DoorLock-Project\opencv-4.5.2\3rdparty\libjpeg-turbo\src\jmorecfg.h \
+ E:\Program\Linux\Linux_Projects\ARM-DoorLock-Project\opencv-4.5.2\3rdparty\libjpeg-turbo\src\jpegint.h \
+ E:\Program\Linux\Linux_Projects\ARM-DoorLock-Project\opencv-4.5.2\3rdparty\libjpeg-turbo\src\jerror.h \
+ E:\Program\Linux\Linux_Projects\ARM-DoorLock-Project\opencv-4.5.2\3rdparty\libjpeg-turbo\src\jpegcomp.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/libjpeg-turbo/jconfigint.h

@@ -1,0 +1,198 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/include/opencv2/videoio.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/include/opencv2/videoio/cap_ios.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/include/opencv2/videoio/container_avi.private.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/include/opencv2/videoio/legacy/constants_c.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/include/opencv2/videoio/registry.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/include/opencv2/videoio/videoio.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/include/opencv2/videoio/videoio_c.h",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/src/cap_dshow.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/src/precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/src/videoio_registry.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/src/videoio_c.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/src/cap.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/src/cap_images.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/src/cap_mjpeg_encoder.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/src/cap_mjpeg_decoder.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/src/backend_plugin.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/src/backend_static.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/src/container_avi.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/src/cap_dshow.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_videoio",
+				"Module"
+			]
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/cvconfig.h"
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/videoio/vs_version.rc"
+		},
+		{
+			"file" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/videoio/opencv_videoio_main.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_videoio",
+			"Module"
+		],
+		"name" : "opencv_videoio"
+	}
+}

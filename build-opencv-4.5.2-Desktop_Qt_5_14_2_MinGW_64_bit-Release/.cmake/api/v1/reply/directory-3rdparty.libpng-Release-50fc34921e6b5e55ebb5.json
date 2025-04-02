@@ -1,0 +1,73 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_install_3rdparty_licenses"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"3rdparty/libpng/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1333,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1333,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "3rdparty/libpng/LICENSE",
+					"to" : "libpng-LICENSE"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "3rdparty/libpng/README",
+					"to" : "libpng-README"
+				}
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "3rdparty/libpng",
+		"source" : "3rdparty/libpng"
+	}
+}

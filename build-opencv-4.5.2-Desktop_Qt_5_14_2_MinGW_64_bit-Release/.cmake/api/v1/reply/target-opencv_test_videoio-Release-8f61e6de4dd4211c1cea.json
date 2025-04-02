@@ -1,0 +1,508 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/opencv_test_videoio.exe"
+		},
+		{
+			"path" : "bin/opencv_test_videoio.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"ocv_add_executable",
+			"ocv_add_accuracy_tests",
+			"target_link_libraries",
+			"__ocv_push_target_link_libraries",
+			"ocv_target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"ocv_add_module",
+			"include",
+			"set_target_properties",
+			"ocv_append_target_property",
+			"target_include_directories",
+			"ocv_target_include_directories",
+			"ocv_target_include_modules",
+			"include_directories",
+			"ocv_include_directories"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"cmake/OpenCVModule.cmake",
+			"modules/videoio/CMakeLists.txt",
+			"cmake/OpenCVCompilerOptions.cmake",
+			"CMakeLists.txt",
+			"modules/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 213,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1268,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1534,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 1273,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1494,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1464,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 1277,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 8
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 617,
+				"parent" : 10
+			},
+			{
+				"file" : 3,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 433,
+				"parent" : 12
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 1295,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 324,
+				"parent" : 16
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 1269,
+				"parent" : 1
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 19
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 21
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 23
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 25
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 27
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 29
+			},
+			{
+				"command" : 16,
+				"file" : 4,
+				"line" : 582,
+				"parent" : 10
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 31
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "HAVE_DSHOW"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "HAVE_FFMPEG_WRAPPER"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "__OPENCV_TESTS=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/ts/include"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/include"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/highgui/include"
+				},
+				{
+					"backtrace" : 32,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "opencv_videoio_plugins::@c4158f3e978b3bbcbc15"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_core::@90e83aff1e86c0750a9d"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgcodecs::@e5f64ca75d8a3efadfa0"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_videoio::@368e281a2b3422cd0411"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgproc::@46089d46ac6964f10538"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_ts::@c974cb34bd96d8662201"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_highgui::@eec24f45586c5b1a2074"
+		}
+	],
+	"id" : "opencv_test_videoio::@368e281a2b3422cd0411",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_ts452.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_highgui452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_videoio452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_imgcodecs452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_imgproc452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_core452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "opencv_test_videoio",
+	"nameOnDisk" : "opencv_test_videoio.exe",
+	"paths" : 
+	{
+		"build" : "modules/videoio",
+		"source" : "modules/videoio"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Src",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "Include",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/videoio/test/test_camera.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/videoio/test/test_container_avi.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/videoio/test/test_dynamic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/videoio/test/test_ffmpeg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/videoio/test/test_gstreamer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/videoio/test/test_main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/videoio/test/test_mfx.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/videoio/test/test_video_io.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/videoio/test/test_precomp.hpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

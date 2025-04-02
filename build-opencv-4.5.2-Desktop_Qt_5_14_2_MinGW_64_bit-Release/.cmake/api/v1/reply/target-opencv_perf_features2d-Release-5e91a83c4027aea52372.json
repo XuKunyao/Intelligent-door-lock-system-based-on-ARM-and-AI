@@ -1,0 +1,527 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/opencv_perf_features2d.exe"
+		},
+		{
+			"path" : "bin/opencv_perf_features2d.pdb"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"ocv_add_executable",
+			"ocv_add_perf_tests",
+			"ocv_define_module",
+			"target_link_libraries",
+			"__ocv_push_target_link_libraries",
+			"ocv_target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"ocv_add_module",
+			"include",
+			"target_include_directories",
+			"ocv_target_include_directories",
+			"ocv_target_include_modules",
+			"include_directories",
+			"ocv_include_directories"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"cmake/OpenCVModule.cmake",
+			"modules/features2d/CMakeLists.txt",
+			"cmake/OpenCVCompilerOptions.cmake",
+			"CMakeLists.txt",
+			"modules/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1078,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1176,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1534,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 1178,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1494,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1464,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 1182,
+				"parent" : 2
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 1072,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 9
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 617,
+				"parent" : 11
+			},
+			{
+				"file" : 3,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 433,
+				"parent" : 13
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 15
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 1177,
+				"parent" : 2
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 20
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 22
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 24
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 26
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 28
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 30
+			},
+			{
+				"command" : 12,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 32
+			},
+			{
+				"command" : 15,
+				"file" : 4,
+				"line" : 582,
+				"parent" : 11
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 34
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 19,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/ts/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/features2d/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/flann/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/highgui/include"
+				},
+				{
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "opencv_videoio_plugins::@c4158f3e978b3bbcbc15"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_core::@90e83aff1e86c0750a9d"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_imgcodecs::@e5f64ca75d8a3efadfa0"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_features2d::@4f2b1ecb2cf869bde395"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_videoio::@368e281a2b3422cd0411"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_flann::@b7c07563ccf30005c216"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_imgproc::@46089d46ac6964f10538"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_ts::@c974cb34bd96d8662201"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_highgui::@eec24f45586c5b1a2074"
+		}
+	],
+	"id" : "opencv_perf_features2d::@4f2b1ecb2cf869bde395",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\libopencv_ts452.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\libopencv_features2d452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\libopencv_highgui452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\libopencv_flann452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\libopencv_videoio452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\libopencv_imgcodecs452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\libopencv_imgproc452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\lib\\libopencv_core452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "opencv_perf_features2d",
+	"nameOnDisk" : "opencv_perf_features2d.exe",
+	"paths" : 
+	{
+		"build" : "modules/features2d",
+		"source" : "modules/features2d"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Src\\opencl",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Src",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "Include",
+			"sourceIndexes" : 
+			[
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/features2d/perf/opencl/perf_brute_force_matcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/features2d/perf/opencl/perf_feature2d.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/features2d/perf/perf_batchDistance.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/features2d/perf/perf_feature2d.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/features2d/perf/perf_main.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/features2d/perf/perf_feature2d.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/features2d/perf/perf_precomp.hpp",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

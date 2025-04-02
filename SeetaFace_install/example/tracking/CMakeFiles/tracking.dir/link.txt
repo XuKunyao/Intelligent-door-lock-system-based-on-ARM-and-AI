@@ -1,0 +1,3 @@
+D:\CMAKE\bin\cmake.exe -E rm -f CMakeFiles\tracking.dir/objects.a
+E:\QT\Tools\mingw730_64\bin\ar.exe qc CMakeFiles\tracking.dir/objects.a @CMakeFiles\tracking.dir\objects1.rsp
+E:\QT\Tools\mingw730_64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\tracking.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\tracking.exe -Wl,--out-implib,libtracking.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\tracking.dir\linklibs.rsp

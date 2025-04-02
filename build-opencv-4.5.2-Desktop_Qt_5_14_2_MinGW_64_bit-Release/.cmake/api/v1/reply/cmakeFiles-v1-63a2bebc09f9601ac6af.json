@@ -1,0 +1,2206 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/OpenCVMinDepVersions.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeSystem.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/3.24.1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeMinGWFindMake.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Platform/Windows-Determine-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/3.24.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/3.24.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeDetermineRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeRCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/3.24.1/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeTestRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/3.24.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeCCompilerABI.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/3.24.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"path" : "cmake/platforms/OpenCV-Windows.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVDownload.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVDetectCXXCompiler.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVVersion.cmake"
+		},
+		{
+			"path" : "modules/core/include/opencv2/core/version.hpp"
+		},
+		{
+			"path" : "cmake/OpenCVInstallLayout.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVDetectPython.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPythonInterp.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPythonInterp.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVCompilerOptions.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVCompilerOptimizations.cmake"
+		},
+		{
+			"path" : "cmake/checks/cpu_sse.cpp"
+		},
+		{
+			"path" : "cmake/checks/cpu_sse2.cpp"
+		},
+		{
+			"path" : "cmake/checks/cpu_sse3.cpp"
+		},
+		{
+			"path" : "cmake/checks/cpu_ssse3.cpp"
+		},
+		{
+			"path" : "cmake/checks/cpu_sse41.cpp"
+		},
+		{
+			"path" : "cmake/checks/cpu_popcnt.cpp"
+		},
+		{
+			"path" : "cmake/checks/cpu_sse42.cpp"
+		},
+		{
+			"path" : "cmake/checks/cpu_fp16.cpp"
+		},
+		{
+			"path" : "cmake/checks/cpu_avx.cpp"
+		},
+		{
+			"path" : "cmake/checks/cpu_avx2.cpp"
+		},
+		{
+			"path" : "cmake/checks/cpu_avx512.cpp"
+		},
+		{
+			"path" : "cmake/checks/cpu_avx512common.cpp"
+		},
+		{
+			"path" : "cmake/checks/cpu_avx512skx.cpp"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeConfigurableFile.in"
+		},
+		{
+			"path" : "cmake/OpenCVPCHSupport.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVModule.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/TestBigEndian.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVFindFrameworks.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVFindLibsGrfmt.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVFindLibsGUI.cmake"
+		},
+		{
+			"path" : "cmake/checks/win32uitest.cpp"
+		},
+		{
+			"path" : "cmake/OpenCVFindLibsVideo.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVFindLibsPerf.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVFindLAPACK.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVFindMKL.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVFindOpenBLAS.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindLAPACK.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindBLAS.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindOpenMP.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/FindOpenMP/OpenMPTryFlag.c"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c"
+		},
+		{
+			"path" : "cmake/OpenCVFindProtobuf.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVDetectApacheAnt.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindJNI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeFindJavaCommon.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVDetectOpenCL.cmake"
+		},
+		{
+			"path" : "cmake/checks/opencl.cpp"
+		},
+		{
+			"path" : "cmake/OpenCVDetectDirectX.cmake"
+		},
+		{
+			"path" : "cmake/checks/directx.cpp"
+		},
+		{
+			"path" : "cmake/OpenCVDetectVTK.cmake"
+		},
+		{
+			"path" : "cmake/templates/custom_hal.hpp.in"
+		},
+		{
+			"path" : "cmake/OpenCVDetectTrace.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVExtraTargets.cmake"
+		},
+		{
+			"path" : "cmake/templates/cmake_uninstall.cmake.in"
+		},
+		{
+			"path" : "cmake/OpenCVGenHeaders.cmake"
+		},
+		{
+			"path" : "cmake/templates/cvconfig.h.in"
+		},
+		{
+			"path" : "cmake/templates/cvconfig.h.in"
+		},
+		{
+			"path" : "cmake/templates/cv_cpu_config.h.in"
+		},
+		{
+			"path" : "cmake/templates/opencv_modules.hpp.in"
+		},
+		{
+			"path" : "cmake/OpenCVGenAndroidMK.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVGenConfig.cmake"
+		},
+		{
+			"path" : "cmake/templates/OpenCVConfig.cmake.in"
+		},
+		{
+			"path" : "cmake/templates/OpenCVConfig-version.cmake.in"
+		},
+		{
+			"path" : "cmake/templates/OpenCVConfig-version.cmake.in"
+		},
+		{
+			"path" : "cmake/templates/OpenCVConfig.cmake.in"
+		},
+		{
+			"path" : "cmake/templates/OpenCVConfig.root-WIN32.cmake.in"
+		},
+		{
+			"path" : "cmake/OpenCVGenABI.cmake"
+		},
+		{
+			"path" : "cmake/OpenCVGenSetupVars.cmake"
+		},
+		{
+			"path" : "cmake/templates/setup_vars_win32.cmd.in"
+		},
+		{
+			"path" : "cmake/templates/setup_vars_win32.cmd.in"
+		},
+		{
+			"path" : "cmake/OpenCVPackaging.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"path" : "3rdparty/zlib/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/OFF64_T.c"
+		},
+		{
+			"path" : "3rdparty/libjpeg-turbo/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c"
+		},
+		{
+			"path" : "3rdparty/libjpeg-turbo/jconfig.h.win.in"
+		},
+		{
+			"path" : "3rdparty/libjpeg-turbo/jconfigint.h.in"
+		},
+		{
+			"path" : "3rdparty/libtiff/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_SHORT.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_SHORT.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_INT.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG_LONG.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_CHAR_P.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/SIZEOF_PTRDIFF_T.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/int8.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/int16.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckTypeSize.c.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckTypeSize/int32.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/TestBigEndian.cmake"
+		},
+		{
+			"path" : "3rdparty/libtiff/tif_config.h.cmake.in"
+		},
+		{
+			"path" : "3rdparty/libtiff/tiffconf.h.cmake.in"
+		},
+		{
+			"path" : "3rdparty/libwebp/CMakeLists.txt"
+		},
+		{
+			"path" : "3rdparty/openjpeg/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/TestBigEndian.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeConfigurableFile.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/CMakeFiles/CheckIncludeFiles/OPJ_HAVE_MALLOC_H.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeConfigurableFile.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeConfigurableFile.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CMakeConfigurableFile.in"
+		},
+		{
+			"path" : "3rdparty/openjpeg/openjp2/opj_config.h.cmake.in"
+		},
+		{
+			"path" : "3rdparty/openjpeg/openjp2/opj_config_private.h.cmake.in"
+		},
+		{
+			"path" : "3rdparty/openjpeg/openjp2/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "3rdparty/libpng/CMakeLists.txt"
+		},
+		{
+			"path" : "3rdparty/openexr/CMakeLists.txt"
+		},
+		{
+			"path" : "3rdparty/openexr/IlmBaseConfig.h.cmakein"
+		},
+		{
+			"path" : "3rdparty/openexr/OpenEXRConfig.h.cmakein"
+		},
+		{
+			"path" : "3rdparty/protobuf/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"path" : "3rdparty/quirc/CMakeLists.txt"
+		},
+		{
+			"path" : "include/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/gapi/cmake/init.cmake"
+		},
+		{
+			"path" : "modules/gapi/cmake/DownloadADE.cmake"
+		},
+		{
+			"path" : "modules/videoio/cmake/init.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "modules/videoio/cmake/detect_ffmpeg.cmake"
+		},
+		{
+			"path" : "3rdparty/ffmpeg/ffmpeg.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/ffmpeg/ffmpeg_version.cmake"
+		},
+		{
+			"path" : "modules/videoio/cmake/detect_gstreamer.cmake"
+		},
+		{
+			"path" : "modules/videoio/cmake/detect_dc1394.cmake"
+		},
+		{
+			"path" : "modules/videoio/cmake/detect_dshow.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "F:/EXE/CMake/share/cmake-3.24/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"path" : "modules/calib3d/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/core/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/dnn/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/features2d/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/flann/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/gapi/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/highgui/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/imgcodecs/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/imgproc/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/java/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/java/generator/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/js/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/js/generator/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/ml/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/objc/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/objc/generator/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/objdetect/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/photo/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/python/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/python/python_loader.cmake"
+		},
+		{
+			"path" : "modules/python/package/template/config.py.in"
+		},
+		{
+			"path" : "modules/python/bindings/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/python/test/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/python/python2/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/python/python3/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/stitching/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/ts/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/video/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/videoio/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/world/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/core/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "modules/flann/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/imgproc/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/ml/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/photo/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/python/test/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/dnn/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/dnn/cmake/hooks/INIT_MODULE_SOURCES_opencv_dnn.cmake"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/features2d/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/imgcodecs/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/videoio/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/videoio/cmake/plugin.cmake"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/calib3d/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/highgui/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/objdetect/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/stitching/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/ts/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/video/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/gapi/CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/templates/vs_version.rc.in"
+		},
+		{
+			"path" : "cmake/templates/dllmain.cpp.in"
+		},
+		{
+			"path" : "modules/java/generator/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/java/common.cmake"
+		},
+		{
+			"path" : "modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in"
+		},
+		{
+			"path" : "modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in"
+		},
+		{
+			"path" : "modules/core/misc/java/src/java/core+Core.jcode.in"
+		},
+		{
+			"path" : "modules/js/generator/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/js/common.cmake"
+		},
+		{
+			"path" : "modules/objc/generator/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/objc/common.cmake"
+		},
+		{
+			"path" : "modules/python/bindings/CMakeLists.txt"
+		},
+		{
+			"path" : "doc/CMakeLists.txt"
+		},
+		{
+			"path" : "data/CMakeLists.txt"
+		},
+		{
+			"path" : "apps/CMakeLists.txt"
+		},
+		{
+			"path" : "apps/annotation/CMakeLists.txt"
+		},
+		{
+			"path" : "apps/visualisation/CMakeLists.txt"
+		},
+		{
+			"path" : "apps/interactive-calibration/CMakeLists.txt"
+		},
+		{
+			"path" : "apps/version/CMakeLists.txt"
+		},
+		{
+			"path" : "apps/model-diagnostics/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release",
+		"source" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

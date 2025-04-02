@@ -1,0 +1,1 @@
+-ID:/SeetaFace2/SeetaFace2/example/search -ID:/SeetaFace2/SeetaFace2/SeetaNet/include -ID:/SeetaFace2/SeetaFace2/FaceDetector/include -ID:/SeetaFace2/SeetaFace2/FaceLandmarker/include -ID:/SeetaFace2/SeetaFace2/FaceRecognizer/include -ID:/SeetaFace2/SeetaFace2/QualityAssessor/include -ID:/SeetaFace_BY -isystem D:/OpenCV_BY/include

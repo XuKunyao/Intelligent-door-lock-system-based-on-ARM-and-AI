@@ -1,0 +1,1150 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/libopencv_calib3d452.dll"
+		},
+		{
+			"path" : "lib/libopencv_calib3d452.dll.a"
+		},
+		{
+			"path" : "bin/libopencv_calib3d452.pdb"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"ocv_add_library",
+			"_ocv_create_module",
+			"ocv_create_module",
+			"ocv_define_module",
+			"install",
+			"ocv_install_target",
+			"target_link_libraries",
+			"__ocv_push_target_link_libraries",
+			"ocv_target_link_libraries",
+			"add_definitions",
+			"ocv_add_module",
+			"include",
+			"target_include_directories",
+			"_ocv_append_target_includes",
+			"include_directories",
+			"ocv_include_directories",
+			"set_source_files_properties",
+			"ocv_compiler_optimization_process_sources"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"cmake/OpenCVModule.cmake",
+			"modules/calib3d/CMakeLists.txt",
+			"cmake/OpenCVCompilerOptions.cmake",
+			"CMakeLists.txt",
+			"modules/CMakeLists.txt",
+			"cmake/OpenCVCompilerOptimizations.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1075,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 852,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 933,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1545,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 1008,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1222,
+				"parent" : 6
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 943,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1480,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 1464,
+				"parent" : 9
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 1072,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 11
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 617,
+				"parent" : 13
+			},
+			{
+				"file" : 3,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 433,
+				"parent" : 15
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 17
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 1576,
+				"parent" : 4
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 1513,
+				"parent" : 19
+			},
+			{
+				"command" : 16,
+				"file" : 4,
+				"line" : 582,
+				"parent" : 13
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 21
+			},
+			{
+				"command" : 18,
+				"file" : 1,
+				"line" : 881,
+				"parent" : 3
+			},
+			{
+				"command" : 17,
+				"file" : 6,
+				"line" : 752,
+				"parent" : 23
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/calib3d/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/calib3d"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/flann/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/features2d/include"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				48,
+				71
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=c++11"
+				},
+				{
+					"fragment" : " -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "CV_CPU_COMPILE_AVX2=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "CV_CPU_COMPILE_AVX=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "CV_CPU_COMPILE_FMA3=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "CV_CPU_COMPILE_FP16=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "CV_CPU_COMPILE_POPCNT=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "CV_CPU_COMPILE_SSE4_1=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "CV_CPU_COMPILE_SSE4_2=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "CV_CPU_COMPILE_SSSE3=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "CV_CPU_DISPATCH_MODE=AVX2"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/calib3d/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/calib3d"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/flann/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/features2d/include"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				67
+			]
+		},
+		{
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/calib3d/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/calib3d"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/flann/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/features2d/include"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				70
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 10,
+			"id" : "opencv_core::@90e83aff1e86c0750a9d"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "opencv_features2d::@4f2b1ecb2cf869bde395"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "opencv_flann::@b7c07563ccf30005c216"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "opencv_imgproc::@46089d46ac6964f10538"
+		}
+	],
+	"id" : "opencv_calib3d::@e8558e004ddb3d41eff9",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 7,
+				"path" : "x64/mingw/lib"
+			},
+			{
+				"backtrace" : 7,
+				"path" : "x64/mingw/bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/OpenCV_install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "..\\..\\lib\\libopencv_features2d452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "..\\..\\lib\\libopencv_flann452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "..\\..\\lib\\libopencv_imgproc452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "..\\..\\lib\\libopencv_core452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "opencv_calib3d",
+	"nameOnDisk" : "libopencv_calib3d452.dll",
+	"paths" : 
+	{
+		"build" : "modules/calib3d",
+		"source" : "modules/calib3d"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Include\\opencv2",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\calib3d",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Src",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				70
+			]
+		},
+		{
+			"name" : "Src\\usac",
+			"sourceIndexes" : 
+			[
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46
+			]
+		},
+		{
+			"name" : "Src\\opencl\\kernels",
+			"sourceIndexes" : 
+			[
+				47
+			]
+		},
+		{
+			"name" : "Src\\opencl\\kernels\\autogenerated",
+			"sourceIndexes" : 
+			[
+				48,
+				49
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				67,
+				71
+			]
+		},
+		{
+			"name" : "Include",
+			"sourceIndexes" : 
+			[
+				68,
+				69
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				72
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/include/opencv2/calib3d.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/include/opencv2/calib3d/calib3d.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/include/opencv2/calib3d/calib3d_c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/ap3p.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/calibinit.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/calibration.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/calibration_handeye.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/checkchessboard.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/chessboard.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/circlesgrid.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/compat_ptsetreg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/dls.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/epnp.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/fisheye.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/five-point.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/fundam.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/homography_decomp.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/ippe.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/levmarq.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/main.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/p3p.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/polynom_solver.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/posit.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/ptsetreg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/quadsubpix.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/rho.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/solvepnp.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/sqpnp.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/stereobm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/stereosgbm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/triangulate.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/undistort.dispatch.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/upnp.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/degeneracy.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/dls_solver.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/essential_solver.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/estimator.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/fundamental_solver.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/gamma_values.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/homography_solver.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/local_optimization.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/pnp_solver.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/quality.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/ransac_solvers.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/sampler.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/termination.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/calib3d/src/usac/utils.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/opencl/stereobm.cl",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/calib3d/opencl_kernels_calib3d.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/calib3d/opencl_kernels_calib3d.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/ap3p.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/calib3d_c_api.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/chessboard.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/circlesgrid.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/distortion_model.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/dls.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/epnp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/fisheye.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/ippe.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/p3p.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/polynom_solver.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/precomp.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/rho.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/sqpnp.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/undistort.simd.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/upnp.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/calib3d/src/usac.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/calib3d/undistort.avx2.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/cvconfig.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 5,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/opencv2/opencv_modules.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/calib3d/vs_version.rc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/calib3d/opencv_calib3d_main.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/calib3d/opencl_kernels_calib3d.cpp.rule",
+			"sourceGroupIndex" : 8
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

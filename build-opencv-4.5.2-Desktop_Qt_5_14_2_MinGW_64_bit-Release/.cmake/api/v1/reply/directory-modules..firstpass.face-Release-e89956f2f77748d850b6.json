@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "modules/.firstpass/face",
+		"source" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv_contrib-4.5.2/modules/face"
+	}
+}

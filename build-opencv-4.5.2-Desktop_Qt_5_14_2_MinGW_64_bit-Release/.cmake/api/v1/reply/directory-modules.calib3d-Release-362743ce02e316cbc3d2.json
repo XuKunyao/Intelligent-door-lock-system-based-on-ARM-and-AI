@@ -1,0 +1,141 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_install_target",
+			"_ocv_create_module",
+			"ocv_create_module",
+			"ocv_define_module"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"cmake/OpenCVModule.cmake",
+			"modules/calib3d/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1075,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 852,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1008,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1222,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 5,
+			"component" : "dev",
+			"destination" : "x64/mingw/lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"lib/libopencv_calib3d452.dll.a"
+			],
+			"targetId" : "opencv_calib3d::@e8558e004ddb3d41eff9",
+			"targetIndex" : 15,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "libs",
+			"destination" : "x64/mingw/bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"bin/libopencv_calib3d452.dll"
+			],
+			"targetId" : "opencv_calib3d::@e8558e004ddb3d41eff9",
+			"targetIndex" : 15,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "dev",
+			"destination" : "include/opencv2",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/calib3d/include/opencv2/calib3d.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "dev",
+			"destination" : "include/opencv2/calib3d",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/calib3d/include/opencv2/calib3d/calib3d.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "dev",
+			"destination" : "include/opencv2/calib3d",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/calib3d/include/opencv2/calib3d/calib3d_c.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/calib3d",
+		"source" : "modules/calib3d"
+	}
+}

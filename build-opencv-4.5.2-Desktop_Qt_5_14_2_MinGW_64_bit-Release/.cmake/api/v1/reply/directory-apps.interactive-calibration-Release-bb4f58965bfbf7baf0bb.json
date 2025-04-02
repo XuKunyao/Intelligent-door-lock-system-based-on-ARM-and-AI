@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_add_application"
+		],
+		"files" : 
+		[
+			"apps/CMakeLists.txt",
+			"apps/interactive-calibration/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "dev",
+			"destination" : "x64/mingw/bin",
+			"paths" : 
+			[
+				"bin/opencv_interactive-calibration.exe"
+			],
+			"targetId" : "opencv_interactive-calibration::@7e8a7b6f484218f0f95a",
+			"targetIndex" : 25,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "apps/interactive-calibration",
+		"source" : "apps/interactive-calibration"
+	}
+}

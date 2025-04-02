@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Example"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\example\;CMake Files\example\points81\;CMake Files\example\search\;CMake Files\example\tracking\;CMake Files\example\crop_face\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\OpenCV_BY\;CMake Files\..\..\OpenCV_BY\x64\;CMake Files\..\..\OpenCV_BY\x64\mingw\;CMake Files\..\..\OpenCV_BY\x64\mingw\lib\;CMake Files\cmake\;CMake Files\SeetaNet\;CMake Files\FaceDetector\;CMake Files\FaceTracker\;CMake Files\FaceLandmarker\;CMake Files\FaceRecognizer\;CMake Files\QualityAssessor\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/SeetaFace_BY/example"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="points81">
+				<Option output="D:/SeetaFace_BY/bin/points81.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SeetaFace_BY/example/points81"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_SHARED_LIBS"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/example/points81"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/SeetaNet/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceDetector/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceLandmarker/include"/>
+					<Add directory="D:/SeetaFace_BY"/>
+					<Add directory="D:/OpenCV_BY/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/points81/Makefile&quot;  VERBOSE=1 points81"/>
+					<CompileFile command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/points81/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/points81/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/points81/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="points81/fast">
+				<Option output="D:/SeetaFace_BY/bin/points81.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SeetaFace_BY/example/points81"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_SHARED_LIBS"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/example/points81"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/SeetaNet/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceDetector/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceLandmarker/include"/>
+					<Add directory="D:/SeetaFace_BY"/>
+					<Add directory="D:/OpenCV_BY/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/points81/Makefile&quot;  VERBOSE=1 points81/fast"/>
+					<CompileFile command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/points81/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/points81/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/points81/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="search">
+				<Option output="D:/SeetaFace_BY/bin/search.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SeetaFace_BY/example/search"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_SHARED_LIBS"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/example/search"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/SeetaNet/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceDetector/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceLandmarker/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceRecognizer/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/QualityAssessor/include"/>
+					<Add directory="D:/SeetaFace_BY"/>
+					<Add directory="D:/OpenCV_BY/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/search/Makefile&quot;  VERBOSE=1 search"/>
+					<CompileFile command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/search/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/search/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/search/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="search/fast">
+				<Option output="D:/SeetaFace_BY/bin/search.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SeetaFace_BY/example/search"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_SHARED_LIBS"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/example/search"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/SeetaNet/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceDetector/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceLandmarker/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceRecognizer/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/QualityAssessor/include"/>
+					<Add directory="D:/SeetaFace_BY"/>
+					<Add directory="D:/OpenCV_BY/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/search/Makefile&quot;  VERBOSE=1 search/fast"/>
+					<CompileFile command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/search/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/search/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/search/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tracking">
+				<Option output="D:/SeetaFace_BY/bin/tracking.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SeetaFace_BY/example/tracking"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_SHARED_LIBS"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/example/tracking"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/SeetaNet/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceTracker/include"/>
+					<Add directory="D:/OpenCV_BY/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/tracking/Makefile&quot;  VERBOSE=1 tracking"/>
+					<CompileFile command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/tracking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/tracking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/tracking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tracking/fast">
+				<Option output="D:/SeetaFace_BY/bin/tracking.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SeetaFace_BY/example/tracking"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_SHARED_LIBS"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/example/tracking"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/SeetaNet/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceTracker/include"/>
+					<Add directory="D:/OpenCV_BY/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/tracking/Makefile&quot;  VERBOSE=1 tracking/fast"/>
+					<CompileFile command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/tracking/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/tracking/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/tracking/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crop_face">
+				<Option output="D:/SeetaFace_BY/bin/crop_face.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SeetaFace_BY/example/crop_face"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_SHARED_LIBS"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/example/crop_face"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceDetector/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceLandmarker/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceRecognizer/include"/>
+					<Add directory="D:/SeetaFace_BY"/>
+					<Add directory="D:/OpenCV_BY/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/crop_face/Makefile&quot;  VERBOSE=1 crop_face"/>
+					<CompileFile command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/crop_face/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/crop_face/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/crop_face/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crop_face/fast">
+				<Option output="D:/SeetaFace_BY/bin/crop_face.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/SeetaFace_BY/example/crop_face"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILD_SHARED_LIBS"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/example/crop_face"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceDetector/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceLandmarker/include"/>
+					<Add directory="D:/SeetaFace2/SeetaFace2/FaceRecognizer/include"/>
+					<Add directory="D:/SeetaFace_BY"/>
+					<Add directory="D:/OpenCV_BY/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="E:/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/crop_face/Makefile&quot;  VERBOSE=1 crop_face/fast"/>
+					<CompileFile command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/crop_face/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/crop_face/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/QT/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;D:/SeetaFace_BY/example/crop_face/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/example/crop_face/example.cpp">
+			<Option target="crop_face"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/example/points81/example.cpp">
+			<Option target="points81"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/example/search/example.cpp">
+			<Option target="search"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/example/tracking/example.cpp">
+			<Option target="tracking"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/SeetaFace.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/example/points81/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example\points81\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/example/search/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example\search\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/example/tracking/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example\tracking\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/example/crop_face/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example\crop_face\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/../../OpenCV_BY/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\OpenCV_BY\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/../../OpenCV_BY/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\OpenCV_BY\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/../../OpenCV_BY/x64/mingw/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\OpenCV_BY\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/../../OpenCV_BY/x64/mingw/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\OpenCV_BY\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/../../OpenCV_BY/x64/mingw/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\OpenCV_BY\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/SeetaNet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SeetaNet\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/SeetaNet/SeetaNet.pc.in">
+			<Option virtualFolder="CMake Files\SeetaNet\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/FaceDetector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FaceDetector\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/FaceDetector/FaceDetector.pc.in">
+			<Option virtualFolder="CMake Files\FaceDetector\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/FaceTracker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FaceTracker\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/FaceTracker/FaceTracker.pc.in">
+			<Option virtualFolder="CMake Files\FaceTracker\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/FaceLandmarker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FaceLandmarker\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/FaceLandmarker/SeetaFaceLandmarker.pc.in">
+			<Option virtualFolder="CMake Files\FaceLandmarker\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/FaceRecognizer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FaceRecognizer\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/FaceRecognizer/FaceRecognizer.pc.in">
+			<Option virtualFolder="CMake Files\FaceRecognizer\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/QualityAssessor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\QualityAssessor\"/>
+		</Unit>
+		<Unit filename="D:/SeetaFace2/SeetaFace2/QualityAssessor/QualityAssessor.pc.in">
+			<Option virtualFolder="CMake Files\QualityAssessor\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

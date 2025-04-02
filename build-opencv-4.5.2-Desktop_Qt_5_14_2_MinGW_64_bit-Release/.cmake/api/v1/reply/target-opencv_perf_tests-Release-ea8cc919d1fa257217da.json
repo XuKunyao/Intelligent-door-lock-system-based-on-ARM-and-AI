@@ -1,0 +1,336 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"add_dependencies",
+			"ocv_add_perf_tests",
+			"ocv_define_module"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVExtraTargets.cmake",
+			"CMakeLists.txt",
+			"cmake/OpenCVModule.cmake",
+			"modules/core/CMakeLists.txt",
+			"modules/dnn/CMakeLists.txt",
+			"modules/photo/CMakeLists.txt",
+			"modules/features2d/CMakeLists.txt",
+			"modules/imgcodecs/CMakeLists.txt",
+			"modules/videoio/CMakeLists.txt",
+			"modules/imgproc/CMakeLists.txt",
+			"modules/stitching/CMakeLists.txt",
+			"modules/video/CMakeLists.txt",
+			"modules/gapi/CMakeLists.txt",
+			"modules/calib3d/CMakeLists.txt",
+			"modules/objdetect/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 889,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 161,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1179,
+				"parent" : 5
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 173,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1179,
+				"parent" : 8
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 7,
+				"parent" : 10
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1078,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1179,
+				"parent" : 12
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 9,
+				"parent" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1078,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1179,
+				"parent" : 16
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 7,
+				"line" : 174,
+				"parent" : 18
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1179,
+				"parent" : 19
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 214,
+				"parent" : 21
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1179,
+				"parent" : 22
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 9,
+				"line" : 13,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1078,
+				"parent" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1179,
+				"parent" : 26
+			},
+			{
+				"file" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 10,
+				"line" : 11,
+				"parent" : 28
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1078,
+				"parent" : 29
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1179,
+				"parent" : 30
+			},
+			{
+				"file" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 11,
+				"line" : 2,
+				"parent" : 32
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1078,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1179,
+				"parent" : 34
+			},
+			{
+				"file" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 12,
+				"line" : 240,
+				"parent" : 36
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1179,
+				"parent" : 37
+			},
+			{
+				"file" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 13,
+				"line" : 9,
+				"parent" : 39
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1078,
+				"parent" : 40
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1179,
+				"parent" : 41
+			},
+			{
+				"file" : 14
+			},
+			{
+				"command" : 4,
+				"file" : 14,
+				"line" : 2,
+				"parent" : 43
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1078,
+				"parent" : 44
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1179,
+				"parent" : 45
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "opencv_perf_core::@90e83aff1e86c0750a9d"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "opencv_perf_dnn::@9bfb28f21a1ab2b0c462"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "opencv_perf_photo::@7fc8438b288b9566f339"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "opencv_perf_features2d::@4f2b1ecb2cf869bde395"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "opencv_perf_imgcodecs::@e5f64ca75d8a3efadfa0"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "opencv_perf_videoio::@368e281a2b3422cd0411"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "opencv_perf_imgproc::@46089d46ac6964f10538"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "opencv_perf_stitching::@c90dc6396798f553fb2f"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "opencv_perf_video::@08df6c0062966df3c8f9"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "opencv_perf_gapi::@77f52973fba75ea81765"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "opencv_perf_calib3d::@e8558e004ddb3d41eff9"
+		},
+		{
+			"backtrace" : 46,
+			"id" : "opencv_perf_objdetect::@7f5df5b9e7e68549eda2"
+		}
+	],
+	"id" : "opencv_perf_tests::@6890427a1f51a3e7e1df",
+	"name" : "opencv_perf_tests",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

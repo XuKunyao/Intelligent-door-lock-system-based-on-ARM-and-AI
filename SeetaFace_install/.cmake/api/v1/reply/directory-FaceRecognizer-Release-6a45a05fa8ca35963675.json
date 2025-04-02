@@ -1,0 +1,146 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"FaceRecognizer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/seeta",
+			"paths" : 
+			[
+				"D:/SeetaFace_BY/FaceRecognizer/SeetaRecognizerExport.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSeetaFaceRecognizer.dll.a"
+			],
+			"targetId" : "SeetaFaceRecognizer::@411f228d980ce3c3d87c",
+			"targetIndex" : 2,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/libSeetaFaceRecognizer.dll"
+			],
+			"targetId" : "SeetaFaceRecognizer::@411f228d980ce3c3d87c",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/seeta",
+			"paths" : 
+			[
+				"FaceRecognizer/include/seeta/CStream.h",
+				"FaceRecognizer/include/seeta/CStruct.h",
+				"FaceRecognizer/include/seeta/FaceDatabase.h",
+				"FaceRecognizer/include/seeta/FaceRecognizer.h",
+				"FaceRecognizer/include/seeta/Stream.h",
+				"FaceRecognizer/include/seeta/Struct.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake",
+			"exportName" : "SeetaFaceRecognizerConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SeetaFaceRecognizer::@411f228d980ce3c3d87c",
+					"index" : 2
+				}
+			],
+			"paths" : 
+			[
+				"FaceRecognizer/CMakeFiles/Export/c220ae0af1591e9e9e916bba91f25986/SeetaFaceRecognizerConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake",
+			"paths" : 
+			[
+				"D:/SeetaFace_BY/SeetaFaceRecognizerConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"D:/SeetaFace_BY/SeetaFaceRecognizer.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "FaceRecognizer",
+		"source" : "FaceRecognizer"
+	}
+}

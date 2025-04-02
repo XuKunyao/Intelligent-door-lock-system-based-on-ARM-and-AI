@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_add_application"
+		],
+		"files" : 
+		[
+			"apps/CMakeLists.txt",
+			"apps/annotation/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "dev",
+			"destination" : "x64/mingw/bin",
+			"paths" : 
+			[
+				"bin/opencv_annotation.exe"
+			],
+			"targetId" : "opencv_annotation::@c146904c23bd52800abd",
+			"targetIndex" : 14,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "apps/annotation",
+		"source" : "apps/annotation"
+	}
+}

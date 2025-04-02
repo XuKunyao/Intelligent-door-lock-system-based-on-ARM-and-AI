@@ -1,0 +1,35 @@
+3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/quant_dec.c.obj: \
+ E:\Program\Linux\Linux_Projects\ARM-DoorLock-Project\opencv-4.5.2\3rdparty\libwebp\src\dec\quant_dec.c \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/dec/vp8i_dec.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/string.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/crtdefs.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/vadefs.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/dec/common_dec.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/dec/vp8li_dec.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/dec/webpi_dec.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/utils/rescaler_utils.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/webp/types.h \
+ F:/EXE/QT/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/stddef.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/stddef.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/inttypes.h \
+ F:/EXE/QT/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/stdint.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/stdint.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/dec/vp8_dec.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/webp/decode.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/webp/types.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/utils/bit_reader_utils.h \
+ F:/EXE/QT/Tools/mingw730_64/x86_64-w64-mingw32/include/assert.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/utils/color_cache_utils.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/dsp/dsp.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/utils/huffman_utils.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/webp/format_constants.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/utils/random_utils.h \
+ E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/libwebp/src/utils/thread_utils.h

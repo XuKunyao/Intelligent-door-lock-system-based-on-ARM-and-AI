@@ -1,0 +1,246 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/libSeetaFaceTracker.dll"
+		},
+		{
+			"path" : "lib/libSeetaFaceTracker.dll.a"
+		},
+		{
+			"path" : "bin/libSeetaFaceTracker.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"INSTALL",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"FaceTracker/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-std=c++0x"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-unused-parameter"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "BUILD_SHARED_LIBS"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SEETA_EXPORTS"
+				},
+				{
+					"define" : "SeetaFaceTracker_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "D:/SeetaFace2/SeetaFace2/FaceTracker"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/SeetaFace2/SeetaFace2/FaceTracker/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/SeetaFace2/SeetaFace2/FaceTracker/include/seeta"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/SeetaFace2/SeetaFace2/FaceTracker/seeta"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/SeetaFace2/SeetaFace2/SeetaNet/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/SeetaFace2/SeetaFace2/FaceDetector/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/SeetaFace_BY"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "SeetaNet::@d31b7f39a39a9db7255f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "SeetaFaceDetector::@1ee3b9d09c6f3114792e"
+		}
+	],
+	"id" : "SeetaFaceTracker::@4578ceb0ce229cd529cb",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "D:/SeetaFace_BY"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\lib\\libSeetaFaceDetector.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\lib\\libSeetaNet.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lWs2_32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "SeetaFaceTracker",
+	"nameOnDisk" : "libSeetaFaceTracker.dll",
+	"paths" : 
+	{
+		"build" : "FaceTracker",
+		"source" : "FaceTracker"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "FaceTracker/src/seeta/FaceTracker.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

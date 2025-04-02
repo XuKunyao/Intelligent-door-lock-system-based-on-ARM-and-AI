@@ -1,0 +1,79 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"data/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "libs",
+			"destination" : "etc/haarcascades",
+			"paths" : 
+			[
+				"data/haarcascades/haarcascade_eye.xml",
+				"data/haarcascades/haarcascade_eye_tree_eyeglasses.xml",
+				"data/haarcascades/haarcascade_frontalcatface.xml",
+				"data/haarcascades/haarcascade_frontalcatface_extended.xml",
+				"data/haarcascades/haarcascade_frontalface_alt.xml",
+				"data/haarcascades/haarcascade_frontalface_alt2.xml",
+				"data/haarcascades/haarcascade_frontalface_alt_tree.xml",
+				"data/haarcascades/haarcascade_frontalface_default.xml",
+				"data/haarcascades/haarcascade_fullbody.xml",
+				"data/haarcascades/haarcascade_lefteye_2splits.xml",
+				"data/haarcascades/haarcascade_licence_plate_rus_16stages.xml",
+				"data/haarcascades/haarcascade_lowerbody.xml",
+				"data/haarcascades/haarcascade_profileface.xml",
+				"data/haarcascades/haarcascade_righteye_2splits.xml",
+				"data/haarcascades/haarcascade_russian_plate_number.xml",
+				"data/haarcascades/haarcascade_smile.xml",
+				"data/haarcascades/haarcascade_upperbody.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "libs",
+			"destination" : "etc/lbpcascades",
+			"paths" : 
+			[
+				"data/lbpcascades/lbpcascade_frontalcatface.xml",
+				"data/lbpcascades/lbpcascade_frontalface.xml",
+				"data/lbpcascades/lbpcascade_frontalface_improved.xml",
+				"data/lbpcascades/lbpcascade_profileface.xml",
+				"data/lbpcascades/lbpcascade_silverware.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "data",
+		"source" : "data"
+	}
+}

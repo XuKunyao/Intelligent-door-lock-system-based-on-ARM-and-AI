@@ -1,0 +1,176 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_install_3rdparty_licenses",
+			"include",
+			"_add_modules_1",
+			"ocv_glob_modules",
+			"add_backend"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"modules/gapi/cmake/DownloadADE.cmake",
+			"modules/gapi/cmake/init.cmake",
+			"cmake/OpenCVModule.cmake",
+			"modules/CMakeLists.txt",
+			"3rdparty/ffmpeg/ffmpeg.cmake",
+			"modules/videoio/cmake/detect_ffmpeg.cmake",
+			"modules/videoio/cmake/init.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 361,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 298,
+				"parent" : 2
+			},
+			{
+				"file" : 2,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 19,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1333,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 298,
+				"parent" : 2
+			},
+			{
+				"file" : 7,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 18,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 7,
+				"parent" : 11
+			},
+			{
+				"file" : 6,
+				"parent" : 12
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 13,
+				"parent" : 13
+			},
+			{
+				"file" : 5,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 44,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1333,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1333,
+				"parent" : 16
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 8,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/ade/ade-0.1.1f/LICENSE",
+					"to" : "ade-LICENSE"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "3rdparty/ffmpeg/license.txt",
+					"to" : "ffmpeg-license.txt"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "licenses",
+			"destination" : "etc/licenses",
+			"paths" : 
+			[
+				{
+					"from" : "3rdparty/ffmpeg/readme.txt",
+					"to" : "ffmpeg-readme.txt"
+				}
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules",
+		"source" : "modules"
+	}
+}

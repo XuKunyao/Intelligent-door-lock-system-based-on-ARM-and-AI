@@ -1,0 +1,2487 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/libopencv_dnn452.dll"
+		},
+		{
+			"path" : "lib/libopencv_dnn452.dll.a"
+		},
+		{
+			"path" : "bin/libopencv_dnn452.pdb"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"ocv_add_library",
+			"_ocv_create_module",
+			"ocv_create_module",
+			"install",
+			"ocv_install_target",
+			"target_link_libraries",
+			"__ocv_push_target_link_libraries",
+			"ocv_target_link_libraries",
+			"add_definitions",
+			"ocv_add_module",
+			"include",
+			"target_include_directories",
+			"_ocv_append_target_includes",
+			"include_directories",
+			"ocv_include_directories",
+			"set_source_files_properties",
+			"ocv_compiler_optimization_process_sources"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"cmake/OpenCVModule.cmake",
+			"modules/dnn/CMakeLists.txt",
+			"cmake/OpenCVCompilerOptions.cmake",
+			"CMakeLists.txt",
+			"modules/CMakeLists.txt",
+			"cmake/OpenCVCompilerOptimizations.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 166,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 852,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 933,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1545,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 1008,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1222,
+				"parent" : 5
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 943,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 1480,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1464,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 949,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 1494,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1464,
+				"parent" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 15
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 617,
+				"parent" : 17
+			},
+			{
+				"file" : 3,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 433,
+				"parent" : 19
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 21
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 1576,
+				"parent" : 3
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 1513,
+				"parent" : 23
+			},
+			{
+				"command" : 15,
+				"file" : 4,
+				"line" : 582,
+				"parent" : 17
+			},
+			{
+				"command" : 14,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 25
+			},
+			{
+				"command" : 17,
+				"file" : 1,
+				"line" : 881,
+				"parent" : 2
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 752,
+				"parent" : 27
+			},
+			{
+				"command" : 16,
+				"file" : 6,
+				"line" : 752,
+				"parent" : 27
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-sign-compare -Wno-invalid-offsetof -O3 -DNDEBUG  -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=c++11"
+				},
+				{
+					"fragment" : "-Wno-suggest-override -Wno-array-bounds"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CV_OCL4DNN=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_PROTOBUF=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/dnn"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/caffe"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/tensorflow"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/onnx"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/include/opencl/1.2"
+				},
+				{
+					"backtrace" : 26,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/protobuf/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-sign-compare -Wno-invalid-offsetof -O3 -DNDEBUG  -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CV_OCL4DNN=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_PROTOBUF=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/dnn"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/caffe"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/tensorflow"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/onnx"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/include/opencl/1.2"
+				},
+				{
+					"backtrace" : 26,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/protobuf/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				138,
+				205
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-sign-compare -Wno-invalid-offsetof -O3 -DNDEBUG  -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=c++11"
+				},
+				{
+					"fragment" : " -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "CV_CPU_COMPILE_AVX=1"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "CV_CPU_COMPILE_POPCNT=1"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "CV_CPU_COMPILE_SSE4_1=1"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "CV_CPU_COMPILE_SSE4_2=1"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "CV_CPU_COMPILE_SSSE3=1"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "CV_CPU_DISPATCH_MODE=AVX"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CV_OCL4DNN=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_PROTOBUF=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/dnn"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/caffe"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/tensorflow"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/onnx"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/include/opencl/1.2"
+				},
+				{
+					"backtrace" : 26,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/protobuf/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				200
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-sign-compare -Wno-invalid-offsetof -O3 -DNDEBUG  -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=c++11"
+				},
+				{
+					"fragment" : " -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "CV_CPU_COMPILE_AVX2=1"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "CV_CPU_COMPILE_AVX=1"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "CV_CPU_COMPILE_FMA3=1"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "CV_CPU_COMPILE_FP16=1"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "CV_CPU_COMPILE_POPCNT=1"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "CV_CPU_COMPILE_SSE4_1=1"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "CV_CPU_COMPILE_SSE4_2=1"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "CV_CPU_COMPILE_SSSE3=1"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "CV_CPU_DISPATCH_MODE=AVX2"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CV_OCL4DNN=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_PROTOBUF=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/dnn"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/caffe"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/tensorflow"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/onnx"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/include/opencl/1.2"
+				},
+				{
+					"backtrace" : 26,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/protobuf/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				201
+			]
+		},
+		{
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CV_OCL4DNN=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HAVE_PROTOBUF=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/dnn"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/caffe"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/tensorflow"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/misc/onnx"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/include/opencl/1.2"
+				},
+				{
+					"backtrace" : 26,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/3rdparty/protobuf/src"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				204
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 12,
+			"id" : "libprotobuf::@8bb0a9a9eda9db088686"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "opencv_core::@90e83aff1e86c0750a9d"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "opencv_imgproc::@46089d46ac6964f10538"
+		}
+	],
+	"id" : "opencv_dnn::@9bfb28f21a1ab2b0c462",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "x64/mingw/lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "x64/mingw/bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/OpenCV_install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "..\\..\\lib\\libopencv_imgproc452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "..\\..\\3rdparty\\lib\\liblibprotobuf.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "..\\..\\lib\\libopencv_core452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "opencv_dnn",
+	"nameOnDisk" : "libopencv_dnn452.dll",
+	"paths" : 
+	{
+		"build" : "modules/dnn",
+		"source" : "modules/dnn"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Include\\opencv2",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\dnn",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				10
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\dnn\\utils",
+			"sourceIndexes" : 
+			[
+				9
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				200,
+				201,
+				205
+			]
+		},
+		{
+			"name" : "Src\\caffe",
+			"sourceIndexes" : 
+			[
+				21,
+				22,
+				23,
+				140,
+				141
+			]
+		},
+		{
+			"name" : "Src\\darknet",
+			"sourceIndexes" : 
+			[
+				24,
+				25,
+				156
+			]
+		},
+		{
+			"name" : "Src",
+			"sourceIndexes" : 
+			[
+				26,
+				27,
+				28,
+				29,
+				30,
+				65,
+				66,
+				76,
+				77,
+				78,
+				157,
+				158,
+				159,
+				160,
+				163,
+				169,
+				170,
+				171,
+				172,
+				173,
+				204
+			]
+		},
+		{
+			"name" : "Src\\layers",
+			"sourceIndexes" : 
+			[
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				161,
+				162
+			]
+		},
+		{
+			"name" : "Src\\ocl4dnn\\src",
+			"sourceIndexes" : 
+			[
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73
+			]
+		},
+		{
+			"name" : "Src\\onnx",
+			"sourceIndexes" : 
+			[
+				74,
+				75,
+				168
+			]
+		},
+		{
+			"name" : "Src\\tengine4dnn\\src",
+			"sourceIndexes" : 
+			[
+				79
+			]
+		},
+		{
+			"name" : "Src\\tensorflow",
+			"sourceIndexes" : 
+			[
+				80,
+				81,
+				82,
+				175,
+				176
+			]
+		},
+		{
+			"name" : "Src\\torch",
+			"sourceIndexes" : 
+			[
+				83,
+				84,
+				85,
+				86,
+				177,
+				178,
+				179,
+				180
+			]
+		},
+		{
+			"name" : "Src\\vkcom\\shader",
+			"sourceIndexes" : 
+			[
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				193
+			]
+		},
+		{
+			"name" : "Src\\vkcom\\src",
+			"sourceIndexes" : 
+			[
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				194,
+				195,
+				196
+			]
+		},
+		{
+			"name" : "Src\\vkcom\\vulkan",
+			"sourceIndexes" : 
+			[
+				111,
+				112,
+				197,
+				198,
+				199
+			]
+		},
+		{
+			"name" : "Src\\opencl\\kernels",
+			"sourceIndexes" : 
+			[
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137
+			]
+		},
+		{
+			"name" : "Src\\opencl\\kernels\\autogenerated",
+			"sourceIndexes" : 
+			[
+				138,
+				139
+			]
+		},
+		{
+			"name" : "Src\\cuda",
+			"sourceIndexes" : 
+			[
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155
+			]
+		},
+		{
+			"name" : "Src\\ocl4dnn\\include",
+			"sourceIndexes" : 
+			[
+				164,
+				165,
+				166,
+				167
+			]
+		},
+		{
+			"name" : "Src\\tengine4dnn\\include",
+			"sourceIndexes" : 
+			[
+				174
+			]
+		},
+		{
+			"name" : "Src\\vkcom\\include",
+			"sourceIndexes" : 
+			[
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192
+			]
+		},
+		{
+			"name" : "Include",
+			"sourceIndexes" : 
+			[
+				202,
+				203
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				206
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/include/opencv2/dnn.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/include/opencv2/dnn/all_layers.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/include/opencv2/dnn/dict.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/include/opencv2/dnn/dnn.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/include/opencv2/dnn/dnn.inl.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/include/opencv2/dnn/layer.details.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/include/opencv2/dnn/layer.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/include/opencv2/dnn/layer_reg.private.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/include/opencv2/dnn/shape_utils.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/include/opencv2/dnn/utils/inference_engine.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/include/opencv2/dnn/version.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/dnn/misc/caffe/opencv-caffe.pb.cc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/dnn/misc/onnx/opencv-onnx.pb.cc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/dnn/misc/tensorflow/attr_value.pb.cc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/dnn/misc/tensorflow/function.pb.cc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/dnn/misc/tensorflow/graph.pb.cc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/dnn/misc/tensorflow/op_def.pb.cc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/dnn/misc/tensorflow/tensor.pb.cc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/dnn/misc/tensorflow/tensor_shape.pb.cc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/dnn/misc/tensorflow/types.pb.cc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "modules/dnn/misc/tensorflow/versions.pb.cc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/caffe/caffe_importer.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/caffe/caffe_io.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/caffe/caffe_shrinker.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/darknet/darknet_importer.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/darknet/darknet_io.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/dnn.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/graph_simplifier.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/halide_scheduler.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/ie_ngraph.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/init.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/accum_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/batch_norm_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/blank_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/concat_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/const_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/convolution_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/correlation_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/crop_and_resize_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/detection_output_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/elementwise_layers.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/eltwise_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/flatten_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/flow_warp_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/fully_connected_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/layers_common.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/lrn_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/max_unpooling_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/mvn_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/normalize_bbox_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/padding_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/permute_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/pooling_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/prior_box_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/proposal_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/recurrent_layers.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/region_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/reorg_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/reshape_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/resize_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/scale_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/shuffle_channel_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/slice_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/softmax_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/layers/split_layer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/model.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/nms.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/ocl4dnn/src/common.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/ocl4dnn/src/math_functions.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/ocl4dnn/src/ocl4dnn_conv_spatial.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/ocl4dnn/src/ocl4dnn_inner_product.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/ocl4dnn/src/ocl4dnn_lrn.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/ocl4dnn/src/ocl4dnn_pool.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/ocl4dnn/src/ocl4dnn_softmax.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/onnx/onnx_graph_simplifier.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/onnx/onnx_importer.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/op_halide.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/op_inf_engine.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/op_vkcom.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/tengine4dnn/src/tengine_graph_convolution.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/tensorflow/tf_graph_simplifier.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/tensorflow/tf_importer.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/tensorflow/tf_io.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/torch/THDiskFile.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/torch/THFile.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/torch/THGeneral.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/torch/torch_importer.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/shader/avg_pool_spv.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/shader/concat_spv.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/shader/conv48_spv.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/shader/conv_spv.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/shader/dw_conv_spv.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/shader/lrn_spv.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/shader/max_pool_spv.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/shader/permute_spv.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/shader/prior_box_spv.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/shader/relu_spv.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/shader/softmax_spv.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/buffer.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/context.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/internal.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/op_base.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/op_concat.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/op_conv.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/op_lrn.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/op_permute.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/op_pool.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/op_prior_box.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/op_relu.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/op_softmax.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/src/tensor.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/vulkan/vk_functions.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "modules/dnn/src/vkcom/vulkan/vk_loader.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/activations.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/batchnorm.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/col2im.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/concat.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/conv_layer_spatial.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/conv_spatial_helper.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/detection_output.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/dummy.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/eltwise.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/gemm_buffer.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/gemm_image.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/im2col.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/lrn.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/math.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/matvec_mul.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/mvn.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/ocl4dnn_lrn.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/ocl4dnn_pooling.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/permute.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/pooling.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/prior_box.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/region.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/slice.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/softmax.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/opencl/softmax_loss.cl",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/dnn/opencl_kernels_dnn.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/dnn/opencl_kernels_dnn.hpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/caffe/caffe_io.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/caffe/glog_emulator.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/array.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/atomics.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/bbox_utils.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/block_stride_range.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/execution.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/functors.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/grid_stride_range.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/index_helpers.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/kernel_dispatcher.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/limits.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/math.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/memory.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/types.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/cuda/vector_traits.hpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/darknet/darknet_io.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/dnn_common.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/graph_simplifier.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/halide_scheduler.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/ie_ngraph.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/layers/layers_common.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/layers/layers_common.simd.hpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/nms.inl.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/ocl4dnn/include/common.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/ocl4dnn/include/default_kernel_config.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/ocl4dnn/include/math_functions.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/ocl4dnn/include/ocl4dnn.hpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/onnx/onnx_graph_simplifier.hpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/op_cuda.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/op_halide.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/op_inf_engine.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/op_vkcom.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/precomp.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/tengine4dnn/include/tengine_graph_convolution.hpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/tensorflow/tf_graph_simplifier.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/tensorflow/tf_io.hpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/torch/THDiskFile.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/torch/THFile.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/torch/THFilePrivate.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/torch/THGeneral.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/include/buffer.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/include/op_base.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/include/op_concat.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/include/op_conv.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/include/op_lrn.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/include/op_permute.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/include/op_pool.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/include/op_prior_box.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/include/op_relu.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/include/op_softmax.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/include/tensor.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/include/vkcom.hpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/shader/spv_shader.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/src/common.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/src/context.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/src/internal.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/vulkan/function_list.inl.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/vulkan/vk_functions.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"path" : "modules/dnn/src/vkcom/vulkan/vk_loader.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 2,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/dnn/layers/layers_common.avx.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 3,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/dnn/layers/layers_common.avx2.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/cvconfig.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 4,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/opencv2/opencv_modules.hpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 4,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/dnn/vs_version.rc",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/dnn/opencv_dnn_main.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/modules/dnn/opencl_kernels_dnn.cpp.rule",
+			"sourceGroupIndex" : 23
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,1477 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/opencv_test_gapi.exe"
+		},
+		{
+			"path" : "bin/opencv_test_gapi.pdb"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"ocv_add_executable",
+			"ocv_add_accuracy_tests",
+			"target_link_libraries",
+			"__ocv_push_target_link_libraries",
+			"ocv_target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"ocv_add_module",
+			"include",
+			"set_target_properties",
+			"ocv_append_target_property",
+			"target_include_directories",
+			"ocv_target_include_directories",
+			"ocv_target_include_modules",
+			"include_directories",
+			"ocv_include_directories"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"cmake/OpenCVModule.cmake",
+			"modules/gapi/CMakeLists.txt",
+			"cmake/OpenCVCompilerOptions.cmake",
+			"CMakeLists.txt",
+			"modules/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 192,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1268,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1534,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 1273,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1494,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1464,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 200,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 1277,
+				"parent" : 1
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 9
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 617,
+				"parent" : 11
+			},
+			{
+				"file" : 3,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 433,
+				"parent" : 13
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 1,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 1295,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 324,
+				"parent" : 17
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 1269,
+				"parent" : 1
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 20
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 22
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 24
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 26
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 28
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 30
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 32
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 34
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 36
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 38
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 40
+			},
+			{
+				"command" : 13,
+				"file" : 1,
+				"line" : 675,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 42
+			},
+			{
+				"command" : 12,
+				"file" : 2,
+				"line" : 199,
+				"parent" : 0
+			},
+			{
+				"command" : 16,
+				"file" : 4,
+				"line" : 582,
+				"parent" : 11
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 45
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "__OPENCV_TESTS=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 21,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/ts/include"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/gapi/include"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/videoio/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/core/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/flann/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/dnn/include"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/features2d/include"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/calib3d/include"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/video/include"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/highgui/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/opencv-4.5.2/modules/gapi/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release/3rdparty/ade/ade-0.1.1f/sources/ade/include"
+				},
+				{
+					"backtrace" : 46,
+					"isSystem" : true,
+					"path" : "E:/Program/Linux/Linux_Projects/ARM-DoorLock-Project/build-opencv-4.5.2-Desktop_Qt_5_14_2_MinGW_64_bit-Release"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "ade::@9b7b1f9db13f92153135"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "opencv_videoio_plugins::@c4158f3e978b3bbcbc15"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_core::@90e83aff1e86c0750a9d"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_dnn::@9bfb28f21a1ab2b0c462"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgcodecs::@e5f64ca75d8a3efadfa0"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_features2d::@4f2b1ecb2cf869bde395"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_videoio::@368e281a2b3422cd0411"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_flann::@b7c07563ccf30005c216"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgproc::@46089d46ac6964f10538"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_ts::@c974cb34bd96d8662201"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_gapi::@77f52973fba75ea81765"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_video::@08df6c0062966df3c8f9"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_highgui::@eec24f45586c5b1a2074"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_calib3d::@e8558e004ddb3d41eff9"
+		}
+	],
+	"id" : "opencv_test_gapi::@77f52973fba75ea81765",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_ts452.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_gapi452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_highgui452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_video452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "..\\..\\3rdparty\\lib\\libade.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_videoio452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_imgcodecs452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_dnn452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_calib3d452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_features2d452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_flann452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_imgproc452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "..\\..\\lib\\libopencv_core452.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "opencv_test_gapi",
+	"nameOnDisk" : "opencv_test_gapi.exe",
+	"paths" : 
+	{
+		"build" : "modules/gapi",
+		"source" : "modules/gapi"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Src\\common",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"name" : "Src\\cpu",
+			"sourceIndexes" : 
+			[
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"name" : "Src\\executor",
+			"sourceIndexes" : 
+			[
+				16
+			]
+		},
+		{
+			"name" : "Src",
+			"sourceIndexes" : 
+			[
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				76
+			]
+		},
+		{
+			"name" : "Src\\gpu",
+			"sourceIndexes" : 
+			[
+				42,
+				43,
+				44
+			]
+		},
+		{
+			"name" : "Src\\infer",
+			"sourceIndexes" : 
+			[
+				45,
+				46,
+				47
+			]
+		},
+		{
+			"name" : "Src\\internal",
+			"sourceIndexes" : 
+			[
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61
+			]
+		},
+		{
+			"name" : "Src\\own",
+			"sourceIndexes" : 
+			[
+				62,
+				63,
+				64,
+				65,
+				66
+			]
+		},
+		{
+			"name" : "Src\\render",
+			"sourceIndexes" : 
+			[
+				67,
+				68
+			]
+		},
+		{
+			"name" : "Src\\rmat",
+			"sourceIndexes" : 
+			[
+				69,
+				70,
+				71
+			]
+		},
+		{
+			"name" : "Src\\s11n",
+			"sourceIndexes" : 
+			[
+				72,
+				73
+			]
+		},
+		{
+			"name" : "Src\\streaming",
+			"sourceIndexes" : 
+			[
+				74,
+				75
+			]
+		},
+		{
+			"name" : "Src\\util",
+			"sourceIndexes" : 
+			[
+				77,
+				78,
+				79
+			]
+		},
+		{
+			"name" : "Include\\common",
+			"sourceIndexes" : 
+			[
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96
+			]
+		},
+		{
+			"name" : "Include\\cpu",
+			"sourceIndexes" : 
+			[
+				97
+			]
+		},
+		{
+			"name" : "Include",
+			"sourceIndexes" : 
+			[
+				98,
+				99,
+				100,
+				102
+			]
+		},
+		{
+			"name" : "Include\\rmat",
+			"sourceIndexes" : 
+			[
+				101
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/common/gapi_compoundkernel_tests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/common/gapi_core_tests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/common/gapi_imgproc_tests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/common/gapi_operators_tests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/common/gapi_render_tests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/common/gapi_stereo_tests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/common/gapi_video_tests.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/cpu/gapi_core_tests_cpu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/cpu/gapi_core_tests_fluid.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/cpu/gapi_imgproc_tests_cpu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/cpu/gapi_imgproc_tests_fluid.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/cpu/gapi_ocv_stateful_kernel_tests.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/cpu/gapi_operators_tests_cpu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/cpu/gapi_operators_tests_fluid.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/cpu/gapi_stereo_tests_cpu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/cpu/gapi_video_tests_cpu.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/executor/gtbbexecutor_internal_tests.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_array_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_async_test.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_basic_hetero_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_compile_args_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_desc_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_fluid_parallel_rois_test.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_fluid_resize_test.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_fluid_roi_test.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_fluid_test.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_fluid_test_kernels.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_frame_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_gcompiled_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_gcomputation_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_gpu_test.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_graph_meta_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_kernel_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_opaque_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_plaidml_pipelines.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_planar_test.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_sample_pipelines.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_scalar_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_smoke_test.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_transform_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_typed_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gapi_util_tests.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gpu/gapi_core_tests_gpu.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gpu/gapi_imgproc_tests_gpu.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/gpu/gapi_operators_tests_gpu.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/infer/gapi_infer_ie_test.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/infer/gapi_infer_onnx_test.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/infer/gapi_infer_tests.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_backend_tests.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_dynamic_graph.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_executor_tests.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_garg_test.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_gmetaarg_test.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_gmodel_builder_test.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_island_fusion_tests.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_island_tests.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_pattern_matching_test.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_perform_substitution_test.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_proto_tests.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_recompilation_test.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_int_vectorref_test.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/internal/gapi_transactions_test.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/own/conc_queue_tests.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/own/gapi_types_tests.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/own/last_written_value_tests.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/own/mat_tests.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/own/scalar_tests.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/render/ftp_render_test.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/render/gapi_render_tests_ocv.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/rmat/rmat_integration_tests.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/rmat/rmat_tests.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/rmat/rmat_view_tests.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/s11n/gapi_s11n_tests.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/s11n/gapi_sample_pipelines_s11n.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/streaming/gapi_streaming_sync_tests.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/streaming/gapi_streaming_tests.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/test_main.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/util/any_tests.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/util/optional_tests.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "modules/gapi/test/util/variant_tests.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_core_tests.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_core_tests_common.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_core_tests_inl.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_imgproc_tests.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_imgproc_tests_common.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_imgproc_tests_inl.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_operators_tests.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_operators_tests_inl.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_parsers_tests_common.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_render_tests.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_stereo_tests.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_stereo_tests_inl.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_tests_common.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_tests_helpers.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_video_tests.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_video_tests_common.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/common/gapi_video_tests_inl.hpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/cpu/gapi_ocv_stateful_kernel_test_utils.hpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/gapi_fluid_test_kernels.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/gapi_mock_kernels.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/opencl_kernels_test_gapi.hpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/rmat/rmat_test_common.hpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 3,
+			"path" : "modules/gapi/test/test_precomp.hpp",
+			"sourceGroupIndex" : 15
+		}
+	],
+	"type" : "EXECUTABLE"
+}

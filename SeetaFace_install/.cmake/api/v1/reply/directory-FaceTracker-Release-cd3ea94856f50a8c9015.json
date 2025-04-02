@@ -1,0 +1,144 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"FaceTracker/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/seeta",
+			"paths" : 
+			[
+				"D:/SeetaFace_BY/FaceTracker/SeetaFaceTrackerExport.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSeetaFaceTracker.dll.a"
+			],
+			"targetId" : "SeetaFaceTracker::@4578ceb0ce229cd529cb",
+			"targetIndex" : 3,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/libSeetaFaceTracker.dll"
+			],
+			"targetId" : "SeetaFaceTracker::@4578ceb0ce229cd529cb",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/seeta",
+			"paths" : 
+			[
+				"FaceTracker/include/seeta/CStruct.h",
+				"FaceTracker/include/seeta/CTrackingFaceInfo.h",
+				"FaceTracker/include/seeta/FaceTracker.h",
+				"FaceTracker/include/seeta/Struct.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake",
+			"exportName" : "SeetaFaceTrackerConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SeetaFaceTracker::@4578ceb0ce229cd529cb",
+					"index" : 3
+				}
+			],
+			"paths" : 
+			[
+				"FaceTracker/CMakeFiles/Export/c220ae0af1591e9e9e916bba91f25986/SeetaFaceTrackerConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake",
+			"paths" : 
+			[
+				"D:/SeetaFace_BY/SeetaFaceTrackerConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"D:/SeetaFace_BY/SeetaFaceTracker.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "FaceTracker",
+		"source" : "FaceTracker"
+	}
+}

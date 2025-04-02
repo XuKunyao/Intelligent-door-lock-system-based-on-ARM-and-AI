@@ -1,0 +1,141 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_install_target",
+			"_ocv_create_module",
+			"ocv_create_module",
+			"ocv_define_module"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"cmake/OpenCVModule.cmake",
+			"modules/objdetect/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1075,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 852,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1008,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1222,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 5,
+			"component" : "dev",
+			"destination" : "x64/mingw/lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"lib/libopencv_objdetect452.dll.a"
+			],
+			"targetId" : "opencv_objdetect::@7f5df5b9e7e68549eda2",
+			"targetIndex" : 29,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "libs",
+			"destination" : "x64/mingw/bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"bin/libopencv_objdetect452.dll"
+			],
+			"targetId" : "opencv_objdetect::@7f5df5b9e7e68549eda2",
+			"targetIndex" : 29,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "dev",
+			"destination" : "include/opencv2",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/objdetect/include/opencv2/objdetect.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "dev",
+			"destination" : "include/opencv2/objdetect",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "dev",
+			"destination" : "include/opencv2/objdetect",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/objdetect/include/opencv2/objdetect/objdetect.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/objdetect",
+		"source" : "modules/objdetect"
+	}
+}

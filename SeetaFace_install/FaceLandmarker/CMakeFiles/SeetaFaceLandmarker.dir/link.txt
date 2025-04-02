@@ -1,0 +1,3 @@
+D:\CMAKE\bin\cmake.exe -E rm -f CMakeFiles\SeetaFaceLandmarker.dir/objects.a
+E:\QT\Tools\mingw730_64\bin\ar.exe qc CMakeFiles\SeetaFaceLandmarker.dir/objects.a @CMakeFiles\SeetaFaceLandmarker.dir\objects1.rsp
+E:\QT\Tools\mingw730_64\bin\g++.exe -O3 -DNDEBUG -shared -o ..\bin\libSeetaFaceLandmarker.dll -Wl,--out-implib,..\lib\libSeetaFaceLandmarker.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\SeetaFaceLandmarker.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\SeetaFaceLandmarker.dir\linklibs.rsp

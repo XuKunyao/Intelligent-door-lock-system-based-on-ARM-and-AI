@@ -1,0 +1,127 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"install"
+		],
+		"files" : 
+		[
+			"QualityAssessor/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libSeetaQualityAssessor.dll.a"
+			],
+			"targetId" : "SeetaQualityAssessor::@fa6eeafa92253d2bc5cd",
+			"targetIndex" : 5,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/libSeetaQualityAssessor.dll"
+			],
+			"targetId" : "SeetaQualityAssessor::@fa6eeafa92253d2bc5cd",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/seeta",
+			"paths" : 
+			[
+				"QualityAssessor/include/seeta/CStruct.h",
+				"QualityAssessor/include/seeta/QualityAssessor.h",
+				"QualityAssessor/include/seeta/Struct.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake",
+			"exportName" : "SeetaQualityAssessorConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SeetaQualityAssessor::@fa6eeafa92253d2bc5cd",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"QualityAssessor/CMakeFiles/Export/c220ae0af1591e9e9e916bba91f25986/SeetaQualityAssessorConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake",
+			"paths" : 
+			[
+				"D:/SeetaFace_BY/SeetaQualityAssessorConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"D:/SeetaFace_BY/SeetaQualityAssessor.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "QualityAssessor",
+		"source" : "QualityAssessor"
+	}
+}

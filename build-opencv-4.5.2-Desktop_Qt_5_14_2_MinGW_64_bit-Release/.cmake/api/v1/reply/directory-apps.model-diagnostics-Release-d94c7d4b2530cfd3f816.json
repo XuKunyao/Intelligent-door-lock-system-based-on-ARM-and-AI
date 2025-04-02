@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_add_application"
+		],
+		"files" : 
+		[
+			"apps/CMakeLists.txt",
+			"apps/model-diagnostics/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "dev",
+			"destination" : "x64/mingw/bin",
+			"paths" : 
+			[
+				"bin/opencv_model_diagnostics.exe"
+			],
+			"targetId" : "opencv_model_diagnostics::@e9fa1afd5554c87064d2",
+			"targetIndex" : 27,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "apps/model-diagnostics",
+		"source" : "apps/model-diagnostics"
+	}
+}

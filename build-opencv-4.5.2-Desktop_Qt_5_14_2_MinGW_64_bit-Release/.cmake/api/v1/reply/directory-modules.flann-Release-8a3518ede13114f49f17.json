@@ -1,0 +1,719 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ocv_install_target",
+			"_ocv_create_module",
+			"ocv_create_module",
+			"ocv_define_module"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"cmake/OpenCVModule.cmake",
+			"modules/flann/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1075,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 852,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1008,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1222,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1026,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 5,
+			"component" : "dev",
+			"destination" : "x64/mingw/lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"lib/libopencv_flann452.dll.a"
+			],
+			"targetId" : "opencv_flann::@b7c07563ccf30005c216",
+			"targetIndex" : 20,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "libs",
+			"destination" : "x64/mingw/bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"bin/libopencv_flann452.dll"
+			],
+			"targetId" : "opencv_flann::@b7c07563ccf30005c216",
+			"targetIndex" : 20,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "dev",
+			"destination" : "include/opencv2",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/all_indices.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/allocator.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/any.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/autotuned_index.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/composite_index.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/defines.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/dist.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/dummy.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/dynamic_bitset.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/flann.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/flann_base.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/general.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/ground_truth.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/hdf5.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/heap.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/hierarchical_clustering_index.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/index_testing.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/kdtree_index.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/kdtree_single_index.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/kmeans_index.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/linear_index.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/logger.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/lsh_index.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/lsh_table.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/matrix.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/miniflann.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/nn_index.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/object_factory.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/params.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/random.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/result_set.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/sampling.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/saving.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/simplex_downhill.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "dev",
+			"destination" : "include/opencv2/flann",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"modules/flann/include/opencv2/flann/timer.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "modules/flann",
+		"source" : "modules/flann"
+	}
+}
