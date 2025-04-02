@@ -9,3 +9,7 @@
 - 将识别信息转换为JSON数据发送，**创建数据库**，将人脸注册信息与门锁进入的信息进行存储与管理；
   完成门禁开关的**设备驱动程序**；利用Platform总线进行设备/驱动分离**，修改设备树**完成驱动注册
 - 交叉编译OpenCV库，与人脸算法模型移植到ARM端，在**应用层**实现**驱动调用**，完成硬件控制。
+
+Face_DoorLock为客户端程序，Face_Server为服务器端程序
+opencv_contrib-4.5.2和opencv-4.5.2为所需的OpenCV文件资源，SeetaFace2为所需的人脸识别文件资源
+OpenCV_install和SeetaFace_install分别为OpenCV和Seetaface编译之后得到的文件
