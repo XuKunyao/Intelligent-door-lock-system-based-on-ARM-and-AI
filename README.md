@@ -1,0 +1,4 @@
+基于韦东山imx6ull-pro开发板移植的版本
+Face_DoorLock为客户端程序，Face_Server为服务器端程序
+opencv_contrib-4.5.2和opencv-4.5.2为所需的OpenCV文件资源，SeetaFace2为所需的人脸识别文件资源
+OpenCV_install和SeetaFace_install分别为OpenCV和Seetaface编译之后得到的文件
